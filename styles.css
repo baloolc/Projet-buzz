@@ -1,14 +1,20 @@
 /* Ceci est le Styles de notre Première pages */
 /*variable*/
 
---primary-color: #98D936;
---secondary-color: #8F56B0;
---light-color: #FDFDFD;
---dark-color: #271C3D;
+:root{
+--primary-color : #98D936;
+--secondary-color : #8F56B0;
+--light-color : #FDFDFD;
+--dark-color : #271C3D;
 
 /*A télécharger*/
+
 --first-font-familly: prompt;
 --second-font-familly: prototype;
+
 /*a définir*/
+
 --first-font-size: ;
 --second-font-size: ;
+
+}
