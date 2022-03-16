@@ -18,3 +18,9 @@
 --second-font-size: ;
 
 }
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: var(--light-color);
+}
