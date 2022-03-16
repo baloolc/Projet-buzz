@@ -1,0 +1,32 @@
+
+.first-last-name  {
+    display: flex;
+    justify-content: center;   
+}
+
+.enterprise {
+    display: flex;
+    justify-content: center;  
+}
+
+.mail {
+    display: flex;
+    justify-content: center;  
+}
+
+.phone {
+    display: flex;
+    justify-content: center;  
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+}
+
+
+.input-send {
+    display: flex;
+    justify-content: center; 
+  
+}
