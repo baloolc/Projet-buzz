@@ -5,7 +5,7 @@
     --margin:1rem 8rem 1rem 8rem;
     --margin-input:0.3rem; 
     --heigth-textarea: 10rem;
-
+    --spacing5:3rem;
 }
 .banner-contact {
     
@@ -16,6 +16,7 @@
         background: url('../img/contact.jpeg') no-repeat fixed;
         background-size: cover;
         height: 90vh;
+        margin-bottom: var(--spacing5);
     
     }
 /*block label, champs nom et entreprise*/
@@ -40,6 +41,7 @@
     height: var(--height-input);
     margin-top: var(--margin-input);
     box-shadow: 2px 2px 1px var(--secondary-color);
+    padding: var(--spacing);
 }
 
 /*bloc label, champ mail et phone*/
@@ -47,7 +49,8 @@
 .mail-phone {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;  
+    align-items: center; 
+    margin-top: 1rem; 
 }
 
 /* label de mail et phone*/
@@ -64,8 +67,11 @@
     height: var(--height-input);
     margin-top: var(--margin-input);
     box-shadow: 2px 2px 1px var(--secondary-color);
+    padding: var(--spacing);
 }
-
+input:focus {
+    border-color: var(--primary-color);
+  }
 
 /*bloc message*/
 
@@ -90,9 +96,15 @@
     margin-top: var(--margin-input);
     box-shadow: 2px 2px 1px var(--secondary-color);
     height: var(--heigth-textarea);
-    
+    padding: var(--spacing);   
 }
+textarea:focus {
+    border-color: var(--primary-color);
+  }
+/*texte dans les champs*/
 
+
+  
 /*block du bouton envoyer*/
 
 .input-send {
@@ -105,7 +117,7 @@
 /*ce qui agit sur le bouton*/
 
 .send {
-    font-family: var(--first-font-familly);
+    font-family: var(--second-font-familly);
     text-align: center;
     color: var(--secondary-color);
     text-shadow: 1px 1px 2px var(--light-color);
@@ -114,7 +126,7 @@
     height: 4rem;
     border-radius: 10px 100px / 120px;
     box-shadow: 2px 2px 1px var(--secondary-color);
-    font-size: var(--text-size);
-    font-weight: 400;
+    font-size: var(--texte-font);
+    font-weight: 900;
 }
 
