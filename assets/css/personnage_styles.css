@@ -44,3 +44,18 @@
     background-image: url(../img/wallpaper13.jpg);
     background-size: cover;
 }
+
+button {
+    font-family: var(--second-font-familly);
+    text-align: center;
+    color: var(--secondary-color);
+    text-shadow: 1px 1px 2px var(--light-color);
+    background-color: var(--primary-color);
+    width: 10rem;
+    height: 4rem;
+    border-radius: 10px 100px / 120px;
+    box-shadow: 2px 2px 1px var(--secondary-color);
+    font-size: calc(0.8*var(--texte-size));
+    font-weight: 400;
+    cursor: pointer;
+}
