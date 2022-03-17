@@ -122,7 +122,7 @@
         background: url('../img/Wallpaper.jpeg') no-repeat fixed;
         background-size: cover;
         height: 100vh;
-        margin-bottom: calc(3 * var(--spacing4));
+        margin-bottom: var(--spacing4);
     
     }
 
