@@ -1,31 +1,39 @@
 :root {
-    --width-input: 30rem;
-    --height-input:1.5rem;
-    --width-textarea: 76.4rem;
+    --width-input: 40rem;
+    --height-input:2.5rem;
+    --width-textarea: 77rem;
     --margin:1rem 8rem 1rem 8rem;
     --margin-input:0.3rem; 
-
+    --heigth-textarea: 10rem;
 
 }
-
-
+.banner-contact {
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0;
+        background: url('../img/contact.jpeg') no-repeat fixed;
+        background-size: cover;
+        height: 90vh;
+    
+    }
+/*block label, champs nom et entreprise*/
+ 
 .name-enterprise {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
+
+/*label de name et entreprise*/
+
 .name-enterprise label {
     color: var(--dark-color);
     font-family: var(--first-font-familly);
 }
 
-.first-last-name {
-    margin: var(--margin);
-}
-
-.enterprise {
-    margin: var(--margin);
-}
+/*champs nom et entreprise*/
 
 .name-enterprise input {
     width: var(--width-input);
@@ -34,16 +42,22 @@
     box-shadow: 2px 2px 1px var(--secondary-color);
 }
 
+/*bloc label, champ mail et phone*/
+
 .mail-phone {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;  
 }
+
+/* label de mail et phone*/
 
 .mail-phone label {
     color: var(--dark-color);
     font-family: var(--first-font-familly);
 }
+
+/*input de mail et phone*/
 
 .mail-phone input {
     width: var(--width-input);
@@ -52,13 +66,8 @@
     box-shadow: 2px 2px 1px var(--secondary-color);
 }
 
-.mail {
-    margin: var(--margin);
-}
 
-.phone {
-    margin: var(--margin);
-}
+/*bloc message*/
 
 .message {
     display: flex;
@@ -66,19 +75,25 @@
     margin: var(--margin);
 }
 
+/*label de message*/
+
 .message label {
     color: var(--dark-color);
     font-family: var(--first-font-familly);
    
 }
 
+/*zone de texte de message*/
+
 .message textarea {
     width: var(--width-textarea);
     margin-top: var(--margin-input);
     box-shadow: 2px 2px 1px var(--secondary-color);
+    height: var(--heigth-textarea);
     
 }
 
+/*block du bouton envoyer*/
 
 .input-send {
     display: flex;
@@ -86,21 +101,20 @@
     padding-top: 2.5rem;
      
 }
+
+/*ce qui agit sur le bouton*/
+
 .send {
     font-family: var(--first-font-familly);
     text-align: center;
     color: var(--secondary-color);
     text-shadow: 1px 1px 2px var(--light-color);
     background-color: var(--primary-color);
-    width: 8rem;
-    height: 3.5rem;
+    width: 10rem;
+    height: 4rem;
     border-radius: 10px 100px / 120px;
     box-shadow: 2px 2px 1px var(--secondary-color);
+    font-size: var(--text-size);
+    font-weight: 400;
 }
 
-.send:hover {
-    transform: rotate(3deg);
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-    
-}
