@@ -1,3 +1,4 @@
+
     /* Ceci est le Styles de notre Première pages */
 
     /*variable*/
@@ -37,6 +38,7 @@
     body {
         margin: 0 auto;
         background-color: var(--light-color);
+        box-sizing: border-box;
     }
 
     html {

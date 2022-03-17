@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap');
+
+.roles {
+    display: flex;
+    justify-content: center;
+}
+
+.starcommand {
+    margin: 16px; /* global variable to define */
+    text-decoration: none;
+}
+
+.toystory {
+    margin: 16px; /* global variable to define */
+}
+
+.jamesbuzz {
+    margin: 16px; /* global variable to define */
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+* {
+    font-family: 'prompt';
+}
+
+.starcommandimg {
+    width: 300px;
+    height: 180px;
+    background-image: url(assets/wallpaper13.jpg);
+    background-size: cover;
+}
+
+.toystoryimg {
+    width: 300px;
+    height: 180px;
+    background-image: url(assets/Wallpaper1.jpeg);
+    background-size: cover;
+}
+
+.jamesbuzzimg {
+    width: 300px;
+    height: 180px;
+    background-image: url(assets/Wallpaper3.jpeg);
+    background-size: cover;
+}
+
+.presentation {
+    margin-top: 64px; /* global variable to define */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align:center;
+}
+
+.contact {
+    margin: 32px; /* global variable to define */
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+}
+
+@media screen and (max-width: 600px){
+    .roles {
+        display:flex;
+        flex-wrap: wrap;
+    }
+}
+    
