@@ -1,28 +1,10 @@
 /* Ceci est le style de la page personnage: partie main */ 
-
-.bloc-container {
-    width: 100px;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: none;
+* {
+    font-family: var(--first-font-familly);
 }
-
-.bloc-one {
-    float: left;
-}
-
-.bloc-two {
-    float: right;
-
-}
-
-.bloc-three {
-    float: left;
-
-}
-
-h2 {
-font-size: 1.5em;
-
+.bloc-container h2{
+    font-size: var(--title-size);
+    color: var(--dark-color);
+    text-decoration: none;
+    text-shadow: none;
 }
