@@ -41,7 +41,7 @@
     body {
         margin: 0 auto;
         background-color: var(--light-color);
-        box-sizing: border-box;
+        box-sizing: border-box; 
     }
 
     html {
