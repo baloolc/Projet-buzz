@@ -1,30 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap');
+p {
+    font-size: calc(0.8*var(--texte-size));
+}
+
+p:nth-of-type(2)  {
+    font-size: calc(1.3*var(--texte-size));
+}
+
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align:center;
+    margin-bottom: var(--spacing2);
+    line-height: var(--spacing2);
+}
 
 .roles {
     display: flex;
     justify-content: center;
-}
-
-.starcommand {
-    margin: 16px; /* global variable to define */
-    text-decoration: none;
-}
-
-.toystory {
-    margin: 16px; /* global variable to define */
-}
-
-.jamesbuzz {
-    margin: 16px; /* global variable to define */
+    gap: 3rem;
 }
 
 h3 {
     text-align: center;
+    margin: var(--spacing);
+    font-size: var(--texte-size);
+    color: var(--dark-color);
 }
 
 a {
     text-decoration: none;
-    color: black;
 }
 
 * {
@@ -52,14 +59,6 @@ a {
     background-size: cover;
 }
 
-.presentation {
-    margin-top: 64px; /* global variable to define */
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    text-align:center;
-}
-
 .contact {
     margin: 32px; /* global variable to define */
     display: flex;
@@ -75,6 +74,12 @@ button {
     .roles {
         display:flex;
         flex-wrap: wrap;
+    }
+    p:nth-of-type(2)  {
+        font-size: var(--texte-size);
+    }
+    .presentation {
+        line-height: var(--spacing1);
     }
 }
     
