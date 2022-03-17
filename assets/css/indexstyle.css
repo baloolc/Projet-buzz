@@ -1,30 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap');
 
+p {
+    font-size: calc(0.8*var(--texte-size));
+}
+
+p:nth-of-type(2)  {
+    font-size: calc(1.3*var(--texte-size));
+    font-weight: 500;
+}
+
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align:center;
+    margin-bottom: var(--spacing2);
+    line-height: var(--spacing2);
+}
+
 .roles {
     display: flex;
     justify-content: center;
+    gap: 3rem;
 }
 
-.starcommand {
-    margin: 16px; /* global variable to define */
-    text-decoration: none;
-}
-
-.toystory {
-    margin: 16px; /* global variable to define */
-}
-
-.jamesbuzz {
-    margin: 16px; /* global variable to define */
-}
-
-h2 {
+h3 {
     text-align: center;
+    margin: var(--spacing);
+    font-size: var(--texte-size);
+    color: var(--dark-color);
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: var(--dark-color);
 }
 
 * {
@@ -34,30 +44,22 @@ a {
 .starcommandimg {
     width: 300px;
     height: 180px;
-    background-image: url(assets/wallpaper13.jpg);
+    background-image: url(../img/wallpaper13.jpg);
     background-size: cover;
 }
 
 .toystoryimg {
     width: 300px;
     height: 180px;
-    background-image: url(assets/Wallpaper1.jpeg);
+    background-image: url(../img/Wallpaper1.jpeg);
     background-size: cover;
 }
 
 .jamesbuzzimg {
     width: 300px;
     height: 180px;
-    background-image: url(assets/Wallpaper3.jpeg);
+    background-image: url(../img/Wallpaper3.jpeg);
     background-size: cover;
-}
-
-.presentation {
-    margin-top: 64px; /* global variable to define */
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    text-align:center;
 }
 
 .contact {
@@ -67,14 +69,29 @@ a {
 }
 
 button {
-    width: 200px;
-    height: 50px;
+        font-family: var(--second-font-familly);
+        text-align: center;
+        color: var(--secondary-color);
+        text-shadow: 1px 1px 2px var(--light-color);
+        background-color: var(--primary-color);
+        width: 10rem;
+        height: 4rem;
+        border-radius: 10px 100px / 120px;
+        box-shadow: 2px 2px 1px var(--secondary-color);
+        font-size: calc(0.8*var(--texte-size));
+        font-weight: 400;
 }
 
 @media screen and (max-width: 600px){
     .roles {
         display:flex;
         flex-wrap: wrap;
+    }
+    p:nth-of-type(2)  {
+        font-size: var(--texte-size);
+    }
+    .presentation {
+        line-height: var(--spacing1);
     }
 }
     

@@ -4,12 +4,8 @@
     /*variable*/
 
     @import url(https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap);
-    <style>
-    <style>
-    @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Prompt&display=swap');
-    </style> 
     @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
-    </style> 
+
 
     :root {
         --primary-color: #98D936;
@@ -27,7 +23,7 @@
         --title-size: 28px;
         --title-font: ;
         --texte-size: 24px;
-        --texte-font: ;
+        --texte-font: 1.2rem;
 
         /* spacing */
 
@@ -47,7 +43,7 @@
     body {
         margin: 0 auto;
         background-color: var(--light-color);
-        box-sizing: border-box;
+        box-sizing: border-box; 
     }
 
     html {
@@ -127,7 +123,8 @@
         margin-top: 0;
         background: url('../img/Wallpaper.jpeg') no-repeat fixed;
         background-size: cover;
-        height: 90vh;
+        height: 100vh;
+        margin-bottom: var(--spacing4);
     
     }
 
@@ -144,3 +141,12 @@
         font-family: 'prompt';
         font-weight: 100;
     }
+
+    /* media queries  */
+
+@media screen and (max-width: 920px) {
+    .menu{
+        display: none;
+    };
+
+}
