@@ -8,24 +8,34 @@
 
 }
 
-
+/*block label, champs nom et entreprise*/
+ 
 .name-enterprise {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/*label de name et entreprise*/
+
 .name-enterprise label {
     color: var(--dark-color);
     font-family: var(--first-font-familly);
 }
 
+/* bloc name*/
+
 .first-last-name {
     margin: var(--margin);
 }
 
+/*bloc enterprise*/
+
 .enterprise {
     margin: var(--margin);
 }
+
+/*champs nom et entreprise*/
 
 .name-enterprise input {
     width: var(--width-input);
@@ -34,16 +44,22 @@
     box-shadow: 2px 2px 1px var(--secondary-color);
 }
 
+/*bloc label, champ mail et phone*/
+
 .mail-phone {
     display: flex;
     justify-content: center;
     align-items: center;  
 }
 
+/* label de mail et phone*/
+
 .mail-phone label {
     color: var(--dark-color);
     font-family: var(--first-font-familly);
 }
+
+/*input de mail et phone*/
 
 .mail-phone input {
     width: var(--width-input);
@@ -52,13 +68,19 @@
     box-shadow: 2px 2px 1px var(--secondary-color);
 }
 
+/*block mail*/
+
 .mail {
     margin: var(--margin);
 }
 
+/*block phone*/
+
 .phone {
     margin: var(--margin);
 }
+
+/*bloc message*/
 
 .message {
     display: flex;
@@ -66,11 +88,15 @@
     margin: var(--margin);
 }
 
+/*label de message*/
+
 .message label {
     color: var(--dark-color);
     font-family: var(--first-font-familly);
    
 }
+
+/*zone de texte de message*/
 
 .message textarea {
     width: var(--width-textarea);
@@ -79,6 +105,7 @@
     
 }
 
+/*block du bouton envoyer*/
 
 .input-send {
     display: flex;
@@ -86,6 +113,9 @@
     padding-top: 2.5rem;
      
 }
+
+/*ce qui agit sur le bouton*/
+
 .send {
     font-family: var(--first-font-familly);
     text-align: center;
@@ -96,10 +126,13 @@
     height: 3.5rem;
     border-radius: 10px 100px / 120px;
     box-shadow: 2px 2px 1px var(--secondary-color);
+    font-size: var(--text-size);
+   
 }
 
+/*Quand on passe la souris sur le bouton*/
+
 .send:hover {
-    transform: rotate(3deg);
     background-color: var(--secondary-color);
     color: var(--primary-color);
     
