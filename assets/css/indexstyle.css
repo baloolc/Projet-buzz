@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap');
 
-p {
+main p {
     font-size: calc(0.8*var(--texte-size));
 }
 
@@ -37,7 +37,7 @@ a {
     color: var(--dark-color);
 }
 
-* {
+body main {
     font-family: 'prompt';
 }
 
@@ -80,6 +80,7 @@ button {
         box-shadow: 2px 2px 1px var(--secondary-color);
         font-size: calc(0.8*var(--texte-size));
         font-weight: 400;
+        cursor: pointer;
 }
 
 @media screen and (max-width: 600px){
