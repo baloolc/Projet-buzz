@@ -1,0 +1,127 @@
+    /* Ceci est le Styles de notre Première pages */
+
+    /*variable*/
+
+    @import url(https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap);
+
+    :root {
+        --primary-color: #98D936;
+        --secondary-color: #8F56B0;
+        --light-color: #FDFDFD;
+        --dark-color: #271C3D;
+
+        /*A télécharger*/
+
+        --first-font-familly: 'Prompt';
+        --second-font-familly: prototype;
+
+        /*a définir*/
+
+        --title-size: 28px;
+        --title-font: ;
+        --texte-size: 24px;
+        --texte-font: ;
+
+        /* spacing */
+
+        --spacing: 0.5rem;
+        --spacing2: calc(2 * var(--spacing));
+        --spacing3: calc(3 * var(--spacing));
+        --spacing4: calc(4 * var(--spacing));
+    }
+
+    /* Début du code */
+
+    /* Header  */
+
+    body {
+        margin: 0 auto;
+        background-color: var(--light-color);
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .header {
+        display: flex;
+        height: 2rem;
+        /* background-color: rgb(140, 157, 140); */
+        padding-left: 34px;
+        padding-right: 34px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    /* .top-page { height: 80vh;} */
+
+    .nav {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-left: 15px;
+        margin-right: 15px;
+        /* background-color: rgb(255, 215, 215); */
+    }
+
+    .nameOfPage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .nameOfPage h1 {
+        margin: 0;
+        color: var(--dark-color);
+        font-family: 'Prompt';
+        text-decoration: none;
+        font-size: var(--title-size);
+    }
+
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+        gap: 2.5rem;
+    }
+
+    .menu a {
+        display: flex;
+        align-items: center;
+        color: var(--dark-color);
+        font-family: 'Prompt';
+        font-size: var(--texte-size);
+        text-decoration: none;
+    }
+
+    .menu a:hover {
+        color: #98D936;
+        transition: 0.8s;
+    }
+
+    /* Fin du Header  */
+
+    /* Img du header  */
+
+    .banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0;
+        background: url('../img/Wallpaper.jpeg') no-repeat fixed;
+        background-size: cover;
+        height: 90vh;
+    
+    }
+
+    .banner-title {
+        margin: 0;
+    }
+
+    h2 {
+        color: var(--light-color);
+        text-shadow: 1px 1px black;
+        font-size: 200px;
+        font-family: 'prompt';
+        font-weight: 100;
+    }
