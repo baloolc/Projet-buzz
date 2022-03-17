@@ -121,7 +121,8 @@
         margin-top: 0;
         background: url('../img/Wallpaper.jpeg') no-repeat fixed;
         background-size: cover;
-        height: 90vh;
+        height: 100vh;
+        margin-bottom: calc(3 * var(--spacing4));
     
     }
 
@@ -139,8 +140,10 @@
         font-weight: 100;
     }
 
-@media screen and (min-width: 600px) {
-    .banner-title {
+    /* media queries  */
+
+@media screen and (max-width: 920px) {
+    .menu{
         display: none;
     };
 
