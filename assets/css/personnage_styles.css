@@ -9,6 +9,11 @@
     color: var(--dark-color);
     text-decoration: none;
     text-shadow: none;
+    text-align: center;
+}
+
+.bloc-container p {
+    padding: var(--spacing2);
 }
 
 .bloc-one, .bloc-three {
@@ -16,12 +21,29 @@
     flex-direction: row;
     justify-content: center;
     margin: var(--spacing3);
+    align-items: center;
 }
 
 .bloc-two {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
+    align-items: center;
+}
+
+.bloc-one-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.bloc-two-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.bloc-three-body{
+    display: flex;
+    flex-direction: column;
 }
 
 .bloc-one-img{
@@ -43,6 +65,12 @@
     height: 180px;
     background-image: url(../img/wallpaper13.jpg);
     background-size: cover;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    margin-top: calc(2*var(--spacing4));
 }
 
 button {
