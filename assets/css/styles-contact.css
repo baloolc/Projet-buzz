@@ -1,0 +1,106 @@
+:root {
+    --width-input: 30rem;
+    --height-input:1.5rem;
+    --width-textarea: 76.4rem;
+    --margin:1rem 8rem 1rem 8rem;
+    --margin-input:0.3rem; 
+
+
+}
+
+
+.name-enterprise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name-enterprise label {
+    color: var(--dark-color);
+    font-family: var(--first-font-familly);
+}
+
+.first-last-name {
+    margin: var(--margin);
+}
+
+.enterprise {
+    margin: var(--margin);
+}
+
+.name-enterprise input {
+    width: var(--width-input);
+    height: var(--height-input);
+    margin-top: var(--margin-input);
+    box-shadow: 2px 2px 1px var(--secondary-color);
+}
+
+.mail-phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.mail-phone label {
+    color: var(--dark-color);
+    font-family: var(--first-font-familly);
+}
+
+.mail-phone input {
+    width: var(--width-input);
+    height: var(--height-input);
+    margin-top: var(--margin-input);
+    box-shadow: 2px 2px 1px var(--secondary-color);
+}
+
+.mail {
+    margin: var(--margin);
+}
+
+.phone {
+    margin: var(--margin);
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    margin: var(--margin);
+}
+
+.message label {
+    color: var(--dark-color);
+    font-family: var(--first-font-familly);
+   
+}
+
+.message textarea {
+    width: var(--width-textarea);
+    margin-top: var(--margin-input);
+    box-shadow: 2px 2px 1px var(--secondary-color);
+    
+}
+
+
+.input-send {
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5rem;
+     
+}
+.send {
+    font-family: var(--first-font-familly);
+    text-align: center;
+    color: var(--secondary-color);
+    text-shadow: 1px 1px 2px var(--light-color);
+    background-color: var(--primary-color);
+    width: 8rem;
+    height: 3.5rem;
+    border-radius: 10px 100px / 120px;
+    box-shadow: 2px 2px 1px var(--secondary-color);
+}
+
+.send:hover {
+    transform: rotate(3deg);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    
+}
