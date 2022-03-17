@@ -29,6 +29,7 @@
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
+    margin: var(--spacing3);
 }
 
 .bloc-one-body{
@@ -86,4 +87,11 @@ button {
     font-size: calc(0.8*var(--texte-size));
     font-weight: 400;
     cursor: pointer;
+}
+
+@media screen and (max-width: 600px){
+    .bloc-one-img, .bloc-two-img, .bloc-three-img{
+        width: 0;
+        height: 0;
+    }
 }
