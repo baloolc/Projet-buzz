@@ -49,7 +49,7 @@
     width: var(--width-input);
     height: var(--height-input);
     margin-top: var(--margin-input);
-    box-shadow: 2px 2px 1px var(--primary-color);
+    box-shadow: 2px 2px 1px var(--secondary-color);
 }
 
 .mail {
@@ -89,9 +89,9 @@
 .send {
     font-family: var(--first-font-familly);
     text-align: center;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     text-shadow: 1px 1px 2px var(--light-color);
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     width: 8rem;
     height: 3.5rem;
     border-radius: 10px 100px / 120px;
