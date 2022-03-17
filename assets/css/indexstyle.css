@@ -34,21 +34,21 @@ a {
 .starcommandimg {
     width: 300px;
     height: 180px;
-    background-image: url(assets/img/wallpaper13.jpg);
+    background-image: url(../img/wallpaper13.jpg);
     background-size: cover;
 }
 
 .toystoryimg {
     width: 300px;
     height: 180px;
-    background-image: url(assets/img/Wallpaper1.jpeg);
+    background-image: url(../img/Wallpaper1.jpeg);
     background-size: cover;
 }
 
 .jamesbuzzimg {
     width: 300px;
     height: 180px;
-    background-image: url(assets/img/Wallpaper3.jpeg);
+    background-image: url(../img/Wallpaper3.jpeg);
     background-size: cover;
 }
 
