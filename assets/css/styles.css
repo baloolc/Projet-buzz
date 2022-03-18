@@ -207,12 +207,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        color: #271C3D;
     }
     .header {
         padding-left: var(--spacing);
         padding-right: var(--spacing);
     }
-
 }
 
 @media screen and (min-width: 920px) {
