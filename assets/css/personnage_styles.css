@@ -44,20 +44,11 @@
     margin: var(--spacing3);
 }
 
-.bloc-one-body{
+.bloc-one-body, .bloc-two-body, .bloc-three-body{
     display: flex;
     flex-direction: column;
 }
 
-.bloc-two-body{
-    display: flex;
-    flex-direction: column;
-}
-
-.bloc-three-body{
-    display: flex;
-    flex-direction: column;
-}
 
 .bloc-one-img{
     width: 300px;
