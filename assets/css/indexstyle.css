@@ -63,9 +63,9 @@ body main {
 }
 
 .contact {
-    margin: 32px; /* global variable to define */
     display: flex;
     justify-content: center;
+    margin-top: calc(2*var(--spacing4));
 }
 
 button {
