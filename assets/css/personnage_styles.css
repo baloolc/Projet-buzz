@@ -13,7 +13,6 @@
     background-size: cover;
     height: 100vh;
     margin-bottom: var(--spacing4);
-
 }
 
 .bloc-container h2{
@@ -96,5 +95,10 @@ button {
     .bloc-one-img, .bloc-two-img, .bloc-three-img{
         width: 0;
         height: 0;
+    }
+    .banner {
+        margin: 0;
+        height: 30vh;
+        background-position: center;
     }
 }
