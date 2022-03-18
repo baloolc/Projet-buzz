@@ -131,3 +131,24 @@ textarea:focus {
     cursor: pointer;
 }
 
+/*media querie*/
+
+
+
+@media screen and (max-width: 669px) {
+    .name-enterprise {
+        flex-wrap: wrap;
+       
+    }
+
+    .mail-phone {
+        flex-wrap: wrap;
+       
+    }
+    
+    .message {
+        flex-wrap: wrap;
+        
+    }
+    
+}
