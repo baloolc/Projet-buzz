@@ -4,6 +4,8 @@
     /*variable*/
 
     @import url(https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap);
+    @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
 
     :root {
         --primary-color: #98D936;
@@ -14,14 +16,15 @@
         /*A télécharger*/
 
         --first-font-familly: 'Prompt';
-        --second-font-familly: prototype;
+        --second-font-familly: 'Do Hyeon';
 
         /*a définir*/
 
         --title-size: 28px;
         --title-font: ;
-        --texte-size: 24px;
-        --texte-font: ;
+        --texte-size: 1.5rem;
+        --textesize-footer:1rem;
+        --texte-font: 1.2rem;
 
         /* spacing */
 
@@ -50,7 +53,7 @@
 
     /* Header  */
 
-    .header {
+    .header {font-weight: 500;
         display: flex;
         height: 2rem;
         /* background-color: rgb(140, 157, 140); */
@@ -122,7 +125,7 @@
         background: url('../img/Wallpaper.jpeg') no-repeat fixed;
         background-size: cover;
         height: 100vh;
-        margin-bottom: calc(3 * var(--spacing4));
+        margin-bottom: var(--spacing4);
     
     }
 
@@ -138,6 +141,60 @@
         font-size: 200px;
         font-family: 'prompt';
         font-weight: 100;
+    }
+    /*début du footer*/
+    footer {
+        margin-top: calc(3 * var(--spacing4));
+    }
+    /*les liens logos*/
+
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .facebook {
+        width: var(--spacing3);
+        height: var(--spacing3);
+        margin: var(--spacing);
+        cursor: pointer;
+        
+    }
+
+    .instagram {
+        width: var(--spacing3);
+        height: var(--spacing3);
+        margin: var(--spacing);
+        cursor: pointer;
+        
+    }
+    
+
+    .twitter {
+        width: var(--spacing3);
+        height: var(--spacing3);
+        margin: var(--spacing);
+        cursor: pointer;
+        
+    }
+
+    .linkedin {
+        width: var(--spacing3);
+        height: var(--spacing3);
+        margin: var(--spacing);
+        cursor: pointer;
+    }
+    /*texte du footer*/
+
+    .texte-footer {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: var(--dark-color);
+        font-size: var(--textesize-footer);
+        font-family: var(--first-font-familly);
+        font-weight: 600;
+        
     }
 
     /* media queries  */
