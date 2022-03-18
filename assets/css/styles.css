@@ -21,10 +21,10 @@
         /*a définir*/
 
         --title-size: 28px;
-        --title-font: ;
+        --link-size: 2rem ;
         --texte-size: 1.5rem;
         --textesize-footer:1rem;
-        --texte-font: 1.2rem;
+        --texte-font: 1.7rem;
 
         /* spacing */
 
@@ -69,6 +69,7 @@
         display: flex;
         width: 100%;
         justify-content: space-between;
+        align-items: center;
         margin-left: 15px;
         margin-right: 15px;
         /* background-color: rgb(255, 215, 215); */
@@ -76,20 +77,23 @@
  
     /* Texte à gauche de la nav  */
 
-    .nameOfPage {
+     .buzz-nav a {
         display: flex;
         justify-content: center;
         align-items: center;
-        
+        margin: 0;
+        color: var(--secondary-color);
+        font-family: var(--second-font-familly);
+        text-decoration: none;
+        font-size: var(--link-size);
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .buzz-nav a:hover {
+        color: #98D936;
+        transition: 0.6s;
     }
 
-    .nameOfPage h1 {
-        margin: 0;
-        color: var(--dark-color);
-        font-family: 'Prompt';
-        text-decoration: none;
-        font-size: var(--title-size);
-    }
 
     /* Texte à droite de la nav  */
 
@@ -110,7 +114,7 @@
 
     .menu a:hover {
         color: #98D936;
-        transition: 0.8s;
+        transition: 0.6s;
     }
 
     /* Fin du Header  */

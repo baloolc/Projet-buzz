@@ -84,7 +84,7 @@ button {
     height: 4rem;
     border-radius: 10px 100px / 120px;
     box-shadow: 2px 2px 1px var(--secondary-color);
-    font-size: calc(0.8*var(--texte-size));
+    font-size:var(--texte-font);
     font-weight: 400;
     cursor: pointer;
 }

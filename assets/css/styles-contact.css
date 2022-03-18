@@ -32,6 +32,7 @@
 .name-enterprise label {
     color: var(--dark-color);
     font-family: var(--first-font-familly);
+    font-size: var(--title-size);
 }
 
 /*champs nom et entreprise*/
@@ -42,6 +43,9 @@
     margin-top: var(--margin-input);
     box-shadow: 2px 2px 1px var(--secondary-color);
     padding: var(--spacing);
+    padding-left: var(--spacing2);
+    font-size: var(--spacing2);
+    
 }
 
 /*bloc label, champ mail et phone*/
@@ -58,6 +62,7 @@
 .mail-phone label {
     color: var(--dark-color);
     font-family: var(--first-font-familly);
+    font-size: var(--title-size);
 }
 
 /*input de mail et phone*/
@@ -68,6 +73,8 @@
     margin-top: var(--margin-input);
     box-shadow: 2px 2px 1px var(--secondary-color);
     padding: var(--spacing);
+    padding-left: var(--spacing2); 
+    font-size: var(--spacing2);
 }
 input:focus {
     border-color: var(--primary-color);
@@ -86,6 +93,7 @@ input:focus {
 .message label {
     color: var(--dark-color);
     font-family: var(--first-font-familly);
+    font-size: var(--title-size);
    
 }
 
@@ -96,7 +104,9 @@ input:focus {
     margin-top: var(--margin-input);
     box-shadow: 2px 2px 1px var(--secondary-color);
     height: var(--heigth-textarea);
-    padding: var(--spacing);   
+    padding: var(--spacing);
+    padding-left: var(--spacing2);
+    font-size: var(--spacing2);   
 }
 textarea:focus {
     border-color: var(--primary-color);
