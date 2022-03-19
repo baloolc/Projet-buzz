@@ -77,7 +77,8 @@
     font-size: var(--spacing2);
 }
 input:focus {
-    border-color: var(--primary-color);
+    border: var(--primary-color);
+    outline: ;
   }
 
 /*bloc message*/
