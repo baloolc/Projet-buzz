@@ -46,6 +46,7 @@
     padding-left: var(--spacing2);
     font-size: var(--spacing2);
     
+    
 }
 
 /*bloc label, champ mail et phone*/
@@ -75,10 +76,11 @@
     padding: var(--spacing);
     padding-left: var(--spacing2); 
     font-size: var(--spacing2);
+    
 }
 input:focus {
-    border: var(--primary-color);
-    outline: ;
+    border-color: var(--primary-color);
+    outline-style: none;
   }
 
 /*bloc message*/
@@ -111,6 +113,7 @@ input:focus {
 }
 textarea:focus {
     border-color: var(--primary-color);
+    outline-style: none;
   }
 /*texte dans les champs*/
 
