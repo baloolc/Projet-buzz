@@ -240,7 +240,7 @@ footer {
   .wrapper .twitter:hover,
   .wrapper .twitter:hover .tooltip,
   .wrapper .twitter:hover .tooltip::before {
-    background-color: var(--dark-color);
+    background-color:#a38dcf;
     color: var(--light-color);
   }
   
