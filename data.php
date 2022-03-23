@@ -1,7 +1,6 @@
 <?php 
 
-$data = [
-    'Starcommand' =>  [
+$starcommand = [
         [
             'bloc'  => 'bloc-one',
             'image' => 'bloc-one-img',
@@ -31,5 +30,5 @@ $data = [
             sollicitudin placerat ipsum. Vivamus ac quam ut nibh pharetra aliquet. 
             Mauris sed lorem vel mauris auctor convallis.',
         ],
-    ],
     ];
+    
