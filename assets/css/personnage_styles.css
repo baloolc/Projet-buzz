@@ -1,6 +1,6 @@
 /* Ceci est le style de la page personnage: partie main */ 
 
-* {
+main {
     font-family: var(--first-font-familly);
 }
 
