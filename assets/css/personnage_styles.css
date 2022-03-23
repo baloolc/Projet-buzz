@@ -4,6 +4,17 @@
     font-family: var(--first-font-familly);
 }
 
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    background: url('../img/wallpaper23.jpg') no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: var(--spacing4);
+}
+
 .bloc-container h2{
     font-size: var(--title-size);
     color: var(--dark-color);
@@ -32,39 +43,30 @@
     margin: var(--spacing3);
 }
 
-.bloc-one-body{
+.bloc-one-body, .bloc-two-body, .bloc-three-body{
     display: flex;
     flex-direction: column;
 }
 
-.bloc-two-body{
-    display: flex;
-    flex-direction: column;
-}
-
-.bloc-three-body{
-    display: flex;
-    flex-direction: column;
-}
 
 .bloc-one-img{
     width: 300px;
     height: 180px;
-    background-image: url(../img/wallpaper13.jpg);
+    background-image: url(../img/wallpaper23.jpg);
     background-size: cover;
 }
 
 .bloc-two-img{
     width: 300px;
     height: 180px;
-    background-image: url(../img/wallpaper13.jpg);
+    background-image: url(../img/wallpaper23.jpg);
     background-size: cover;
 }
 
 .bloc-three-img{
     width: 300px;
     height: 180px;
-    background-image: url(../img/wallpaper13.jpg);
+    background-image: url(../img/wallpaper23.jpg);
     background-size: cover;
 }
 
@@ -84,14 +86,19 @@ button {
     height: 4rem;
     border-radius: 10px 100px / 120px;
     box-shadow: 2px 2px 1px var(--secondary-color);
-    font-size: calc(0.8*var(--texte-size));
+    font-size:var(--texte-font);
     font-weight: 400;
     cursor: pointer;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 920px) {
     .bloc-one-img, .bloc-two-img, .bloc-three-img{
         width: 0;
         height: 0;
+    }
+    .banner {
+        margin: 0;
+        height: 30vh;
+        background-position: center;
     }
 }
