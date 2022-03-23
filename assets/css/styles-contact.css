@@ -111,7 +111,7 @@ input:focus {
     box-shadow: 2px 2px 1px var(--secondary-color);
     height: var(--heigth-textarea);
     padding: var(--spacing);
-    padding-left: var(--spacing);
+    padding-left:var(--spacing);
     font-size: var(--spacing2);   
 }
 
