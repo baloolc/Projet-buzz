@@ -92,12 +92,6 @@ main {
     flex-shrink: 0;
 }
 
-.contact{
-    display: flex;
-    justify-content: center;
-    margin-top: calc(2*var(--spacing4));
-}
-
 button {
     font-family: var(--second-font-familly);
     text-align: center;
