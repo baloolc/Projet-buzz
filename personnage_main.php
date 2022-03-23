@@ -20,7 +20,7 @@ require 'header.php';
         </section>
     <main>
         <section class="bloc-container">
-        <?php foreach ($starcommand as $key => $info) : ?>
+        <?php foreach ($jamesbuzz as $key => $info) : ?>
         <div class="<?= $info['bloc']?>">
             <div class="<?= $info['image']?>"></div>
             <div class="<?= $info['body']?>">
