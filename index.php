@@ -27,21 +27,21 @@ require 'header.php';
         </section>
 
         <section class="roles">
-            <a href="personnage_main.html">
+            <a href="personnage_main.php">
                 <div class="starcommand">
                     <div class="starcommandimg"></div>
                     <h3>Star Command</h3>
                 </div>
             </a>
 
-            <a href="personnage_main.html">
+            <a href="personnage_main.php">
                 <div class="toystory">
                     <div class="toystoryimg"></div>
                     <h3>Toy Story</h3>
                 </div>
             </a>
 
-            <a href="personnage_main.html">
+            <a href="personnage_main.php">
                 <div class="jamesbuzz">
                     <div class="jamesbuzzimg"></div>
                     <h3>James Buzz</h3>
@@ -50,7 +50,7 @@ require 'header.php';
         </section>
 
         <section class="contact">
-            <button onclick="location.href='contact.html'" type="button">
+            <button onclick="location.href='contact.php'" type="button">
                 Contact</button>
         </section>
     </main>
