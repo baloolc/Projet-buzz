@@ -113,8 +113,30 @@ html {
 
 
 .menu a:hover {
-    color: #98D936;
+    color: var(--secondary-color);
     transition: 0.6s;
+}
+
+ .menu a, .roles a {
+position: relative;
+text-decoration: none;
+
+
+}
+.menu a:after , .roles a:after{
+    content: "";
+    position: absolute;
+    background-color: var(--primary-color);
+    height: 2px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    padding: 0 10px;
+    transition: 0.3s;
+}
+
+.menu a:hover:after, .roles a:hover:after {
+    width: 90%;
 }
 
 /* Burger  */
@@ -221,8 +243,7 @@ svg {
     transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-  
-  .wrapper .tooltip {
+.wrapper .tooltip {
     display: flex;
     align-items: center;
     position: absolute;
@@ -240,12 +261,12 @@ svg {
 
 }
 
-  .wrapper a{
-      height: 16px;
-      width: 16px;
-  }
-  
-  .wrapper .tooltip::before {
+.wrapper a {
+    height: 16px;
+    width: 16px;
+}
+
+.wrapper .tooltip::before {
     position: absolute;
     content: "";
     height: 8px;
