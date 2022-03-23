@@ -58,4 +58,6 @@ require 'header.php';
                 </form>
             </section>
         </main>
-<?php require 'footer.php' ?>
+<?php 
+require 'footer.php'; 
+?>
