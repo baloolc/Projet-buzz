@@ -219,11 +219,15 @@ svg {
     box-shadow: 0 3px 3px var(--secondary-color);
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
 
-.wrapper .tooltip {
+
+  
+  .wrapper .tooltip {
+    display: flex;
+    align-items: center;
     position: absolute;
     top: 0;
+    font-family: var(--first-font-familly);
     font-size: 14px;
     background-color: #ffffff;
     color: #ffffff;
@@ -233,9 +237,15 @@ svg {
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
 }
 
-.wrapper .tooltip::before {
+  .wrapper a{
+      height: 16px;
+      width: 16px;
+  }
+  
+  .wrapper .tooltip::before {
     position: absolute;
     content: "";
     height: 8px;
