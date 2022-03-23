@@ -15,13 +15,12 @@ require 'header.php';
 ?>
             <div class="banner">
                 <!-- Titre -->              
-                <h2 class="banner-title">Star Command</h2>
+                <h1 class="banner-title">Star Command</h1>
             </div>
         </section>
     <main>
         <section class="bloc-container">
-        <?php foreach ($data as $key => $infos) : ?>
-        <?php foreach ($infos as $info) : ?>
+        <?php foreach ($starcommand as $key => $info) : ?>
         <div class="<?= $info['bloc']?>">
             <div class="<?= $info['image']?>"></div>
             <div class="<?= $info['body']?>">
@@ -29,7 +28,6 @@ require 'header.php';
             <p><?= $info['description'] ?></p>
             </div>
         </div>
-        <?php endforeach; ?>
         <?php endforeach; ?>
         </section>
         <section class="contact">

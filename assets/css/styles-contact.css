@@ -114,6 +114,7 @@ input:focus {
     padding-left:var(--spacing);
     font-size: var(--spacing2);   
 }
+
 textarea:focus {
     border-color: var(--primary-color);
     outline-style: none;

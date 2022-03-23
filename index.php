@@ -15,7 +15,7 @@ require 'header.php';
 
         <div class="banner">
             <!-- Titre -->
-            <h2 class="banner-title">Bienvenue</h2>
+            <h1 class="banner-title">Bienvenue</h1>
         </div>
     </section>
     <!-- Fin section header/top page/landing -->
