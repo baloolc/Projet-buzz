@@ -203,12 +203,12 @@ text-decoration: none;
 
 /* Texte bienvenue du Landing */
 
-h2 {
+h1 {
     color: var(--light-color);
-    text-shadow: 1px 1px black;
+    text-shadow: 5px 5px var(--dark-color);
     font-size: 200px;
-    font-family: 'prompt';
-    font-weight: 100;
+    font-family: var(--first-font-familly);
+    font-weight: 500;
 }
 
 
@@ -379,7 +379,9 @@ svg {
         justify-content: flex-start;
     }
 
-    h2 {
+    h1 {
         font-size: 50px;
+        font-weight: 900;
+        text-shadow: 1em 1em #333;
     }
 }
