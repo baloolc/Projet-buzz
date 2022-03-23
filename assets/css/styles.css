@@ -90,7 +90,7 @@ html {
 
 .buzz-nav a:hover {
     color: #98D936;
-    transition: 0.6s;
+    transition: 0.2s;
 }
 
 
@@ -114,10 +114,12 @@ html {
 
 .menu a:hover {
     color: var(--secondary-color);
-    transition: 0.6s;
+    transition: 0.2s;
 }
 
- .menu a, .roles a {
+/* Animation des barres sous les menues  */
+
+ .menu a, .roles a{
 position: relative;
 text-decoration: none;
 
@@ -343,6 +345,11 @@ svg {
 
 @media screen and (max-width: 920px) {
     .menu {
+        display: none;
+        z-index: 1;
+    }
+
+    .menu a:after {
         display: none;
     }
 
