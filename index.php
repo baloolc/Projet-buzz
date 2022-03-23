@@ -1,6 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/indexstyle.css">
+    <title>CV de l'espace</title>
+</head>
 <?php
 require 'header.php';
-
 ?>
 
         <div class="banner">
@@ -17,21 +27,21 @@ require 'header.php';
         </section>
 
         <section class="roles">
-            <a href="personnage_main.php">
+            <a href="personnage_main.html">
                 <div class="starcommand">
                     <div class="starcommandimg"></div>
                     <h3>Star Command</h3>
                 </div>
             </a>
 
-            <a href="personnage_main.php">
+            <a href="personnage_main.html">
                 <div class="toystory">
                     <div class="toystoryimg"></div>
                     <h3>Toy Story</h3>
                 </div>
             </a>
 
-            <a href="personnage_main.php">
+            <a href="personnage_main.html">
                 <div class="jamesbuzz">
                     <div class="jamesbuzzimg"></div>
                     <h3>James Buzz</h3>
@@ -40,7 +50,7 @@ require 'header.php';
         </section>
 
         <section class="contact">
-            <button onclick="location.href='contact.php'" type="button">
+            <button onclick="location.href='contact.html'" type="button">
                 Contact</button>
         </section>
     </main>
