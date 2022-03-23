@@ -38,7 +38,7 @@ a {
 }
 
 body main {
-    font-family: 'prompt';
+    font-family: var(--first-font-familly);
 }
 
 .starcommandimg {
