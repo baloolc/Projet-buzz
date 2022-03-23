@@ -31,6 +31,7 @@ $starcommand = [
             Mauris sed lorem vel mauris auctor convallis.',
         ],
     ];
+
 $toystory = [
         [
             'bloc'  => 'bloc-one',
@@ -62,6 +63,7 @@ $toystory = [
             Mauris sed lorem vel mauris auctor convallis.',
         ],
     ];    
+    
 $jamesbuzz = [
         [
             'bloc'  => 'bloc-one',
