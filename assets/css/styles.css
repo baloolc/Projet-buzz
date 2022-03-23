@@ -20,11 +20,11 @@
     /*a définir*/
 
     --title-size: 28px;
-    --link-size: 2rem ;
+    --link-size: 2rem;
     --texte-size: 1.5rem;
     --textesize-footer: 1rem;
     --texte-font: 1.7rem;
-    
+
 
     /* ( 0.5rem = 8px ) */
     --spacing: 0.5rem;
@@ -75,34 +75,23 @@ html {
 
 /* Texte à gauche de la nav  */
 
-    .nav {
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-        align-items: center;
-        margin-left: 15px;
-        margin-right: 15px;
-        /* background-color: rgb(255, 215, 215); */
-    }
- 
-    /* Texte à gauche de la nav  */
+.buzz-nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: var(--secondary-color);
+    font-family: var(--second-font-familly);
+    text-decoration: none;
+    font-size: var(--link-size);
+    text-decoration: none;
+    cursor: pointer;
+}
 
-     .buzz-nav a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-        color: var(--secondary-color);
-        font-family: var(--second-font-familly);
-        text-decoration: none;
-        font-size: var(--link-size);
-        text-decoration: none;
-        cursor: pointer;
-    }
-    .buzz-nav a:hover {
-        color: #98D936;
-        transition: 0.6s;
-    }
+.buzz-nav a:hover {
+    color: #98D936;
+    transition: 0.6s;
+}
 
 
 /* Texte à droite de la nav  */
@@ -123,11 +112,51 @@ html {
 }
 
 
-    .menu a:hover {
-        color: #98D936;
-        transition: 0.6s;
-    }
+.menu a:hover {
+    color: #98D936;
+    transition: 0.6s;
+}
 
+/* Burger  */
+
+.burger {
+    display: none;
+}
+
+.burgerClose {
+    display: none;
+}
+
+.menu:target {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.95;
+    width: 90%;
+    height: 100vh;
+    background-color: rgb(255, 206, 206);
+}
+
+.close {
+    display: none;
+}
+
+.menu:target~.close {
+    display: flex;
+    position: fixed;
+    width: 20%;
+    height: 100vh;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    background-color: var(--dark-color);
+    opacity: 0.8;
+}
 
 /* Fin du Header  */
 
@@ -159,6 +188,7 @@ h2 {
     font-weight: 100;
 }
 
+
 /*début du footer*/
 footer {
     margin-top: calc(4 * var(--spacing4));
@@ -169,15 +199,15 @@ footer {
 .wrapper {
     display: flex;
     justify-content: center;
-  }
+}
 
-  svg {
-      fill: var(--dark-color);
-  }
+svg {
+    fill: var(--dark-color);
+}
 
-  .wrapper .icon {
+.wrapper .icon {
     position: relative;
-    background-color:var(--light-color);
+    background-color: var(--light-color);
     border-radius: 50%;
     padding: 6px;
     margin: 5px;
@@ -190,9 +220,9 @@ footer {
     box-shadow: 0 3px 3px var(--secondary-color);
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  
-  .wrapper .tooltip {
+}
+
+.wrapper .tooltip {
     position: absolute;
     top: 0;
     font-size: 14px;
@@ -204,9 +234,9 @@ footer {
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  
-  .wrapper .tooltip::before {
+}
+
+.wrapper .tooltip::before {
     position: absolute;
     content: "";
     height: 8px;
@@ -216,54 +246,54 @@ footer {
     left: 50%;
     transform: translate(-50%) rotate(45deg);
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  
-  .wrapper .icon:hover .tooltip {
+}
+
+.wrapper .icon:hover .tooltip {
     top: -45px;
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-  }
-  
-  .wrapper .icon:hover span,
-  .wrapper .icon:hover .tooltip {
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
     text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
-  }
-  
-  .wrapper .facebook:hover,
-  .wrapper .facebook:hover .tooltip,
-  .wrapper .facebook:hover .tooltip::before {
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
     background-color: var(--secondary-color);
     color: var(--light-color);
-  }
-  
-  .wrapper .twitter:hover,
-  .wrapper .twitter:hover .tooltip,
-  .wrapper .twitter:hover .tooltip::before {
-    background-color:#a38dcf;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+    background-color: #a38dcf;
     color: var(--light-color);
-  }
-  
-  .wrapper .instagram:hover,
-  .wrapper .instagram:hover .tooltip,
-  .wrapper .instagram:hover .tooltip::before {
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
     background-color: #e1306c;
     color: var(--light-color);
-  }
-  
-  .wrapper .linkedin:hover,
-  .wrapper .linkedin:hover .tooltip,
-  .wrapper .linkedin:hover .tooltip::before {
+}
+
+.wrapper .linkedin:hover,
+.wrapper .linkedin:hover .tooltip,
+.wrapper .linkedin:hover .tooltip::before {
     background-color: var(--primary-color);
     color: var(--light-color);
-  }
-  
-  .wrapper .youtube:hover,
-  .wrapper .youtube:hover .tooltip,
-  .wrapper .youtube:hover .tooltip::before {
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
     background-color: #de463b;
     color: var(--light-color);
-  }
+}
 
 /*texte du footer*/
 
@@ -312,11 +342,15 @@ footer {
         font-size: 50px;
     }
 
+    @keyframes translate-nav {
+        from {
+            translate: -100% 0;
+        }
 
-}
-
-@media screen and (min-width: 920px) {
-    .burger {
-        display: none;
+        to {
+            translate: 0 0;
+        }
     }
+
+
 }
