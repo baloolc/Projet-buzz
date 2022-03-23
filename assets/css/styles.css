@@ -212,10 +212,11 @@ h1 {
 
 }
 
-
-/*début du footer*/
-footer {
-    margin-top: calc(4 * var(--spacing4));
+.contact {
+    display: flex;
+    justify-content: center;
+    margin-top: calc(2*var(--spacing4));
+    margin-bottom: calc(2*var(--spacing4));
 }
 
 /*les liens logos*/
@@ -329,6 +330,10 @@ svg {
 }
 
 /*texte du footer*/
+
+footer {
+    margin: 0;
+}
 
 .texte-footer {
     display: flex;
