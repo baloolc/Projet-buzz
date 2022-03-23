@@ -119,11 +119,11 @@ html {
 
 /* Burger  */
 
-.burger {
+.menu .burgerClose {
     display: none;
 }
 
-.burgerClose {
+.burger {
     display: none;
 }
 
@@ -136,17 +136,16 @@ html {
     position: fixed;
     top: 0;
     left: 0;
-    opacity: 0.95;
-    width: 90%;
+    width: 100%;
     height: 100vh;
-    background-color: rgb(255, 206, 206);
+    background-color: var(--light-color);
 }
 
-.close {
+/* .close {
     display: none;
-}
+} */
 
-.menu:target~.close {
+/* .menu:target~.close {
     display: flex;
     position: fixed;
     width: 20%;
@@ -156,7 +155,7 @@ html {
     right: 0;
     background-color: var(--dark-color);
     opacity: 0.8;
-}
+} */
 
 /* Fin du Header  */
 
@@ -323,6 +322,10 @@ svg {
         color: #271C3D;
     }
 
+    .menu .burgerClose {
+        display: flex;
+    }
+
     .header {
         padding-left: var(--spacing);
         padding-right: var(--spacing);
@@ -341,16 +344,4 @@ svg {
     h2 {
         font-size: 50px;
     }
-
-    @keyframes translate-nav {
-        from {
-            translate: -100% 0;
-        }
-
-        to {
-            translate: 0 0;
-        }
-    }
-
-
 }
