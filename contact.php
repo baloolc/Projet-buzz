@@ -14,7 +14,7 @@ require 'header.php';
 ?>
             <div class="banner-contact">
                 <!-- Titre -->
-                <h2 class="banner-title">Contactez moi</h2>
+                <h1 class="banner-title">Contactez moi</h1>
                 <!-- Images de fond  -->
             </div>
         </section>

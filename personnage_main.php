@@ -15,7 +15,7 @@ require 'header.php';
 ?>
             <div class="banner">
                 <!-- Titre -->              
-                <h2 class="banner-title">Star Command</h2>
+                <h1 class="banner-title">Star Command</h1>
             </div>
         </section>
     <main>
