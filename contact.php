@@ -1,35 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/styles-contact.css">
-    <title>Contact Buzz</title>
-</head>
-
-<body>
-    <header>
-        <section class="top-page">
-            <!-- Le header -->
-            <header class="header">
-                <nav class="nav">
-                    <!-- icone à gauche -->
-                    <div class="buzz-nav">
-                        <a href="index.html"> Buzz L'Eclair</a>
-                    </div>
-                    <!-- Listes icones à droite -->
-
-                    <div class="menu" id="#items">
-                        <a href="personnage_main.html">Star Command</a>
-                        <a href="toystory.html">Toys Story</a>
-                        <a href="jamesbuzz.html">James Buzz</a>
-                        <a href="contact.html">Contact</a>
-                    </div>
-                </nav>
-            </header>
+<?php
+require 'header.php';
+?>
             <div class="banner-contact">
                 <!-- Titre -->
                 <h2 class="banner-title">Contactez moi</h2>

@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,15 +18,15 @@
             <nav class="nav">
                 <!-- icone à gauche -->
                 <div class="buzz-nav">
-                    <a  href="index.html"> Buzz L'Eclair</a>
+                    <a  href="index.php"> Buzz L'Eclair</a>
                 </div>
                 <!-- Listes icones à droite -->
 
                 <div class="menu" id="#items">
-                    <a href="personnage_main.html">Star Command</a>
-                    <a href="personnage_main.html">Toys Story</a>
-                    <a href="personnage_main.html">James Buzz</a>
-                    <a href="contact.html">Contact</a>
+                    <a href="personnage_main.php">Star Command</a>
+                    <a href="personnage_main.php">Toys Story</a>
+                    <a href="personnage_main.php">James Buzz</a>
+                    <a href="contact.php">Contact</a>
                 </div>
                 <!-- icone burger -->
                 <a class="burger" href="items">
