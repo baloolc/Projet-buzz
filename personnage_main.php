@@ -64,7 +64,7 @@ require 'header.php';
         </div>
         </section>
         <section class="contact">
-            <button onclick="location.href='contact.html'" type="button">
+            <button onclick="location.href='contact.php'" type="button">
                 Contact</button>
         </section>
     </main>
