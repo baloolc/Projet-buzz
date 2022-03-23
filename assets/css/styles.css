@@ -198,6 +198,7 @@ footer {
       align-items: center;
     position: absolute;
     top: 0;
+    font-family: var(--first-font-familly);
     font-size: 14px;
     background-color: #ffffff;
     color: #ffffff;
