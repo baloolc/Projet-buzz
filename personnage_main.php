@@ -1,3 +1,4 @@
+<?php include 'data.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,55 +14,23 @@
 require 'header.php';
 ?>
             <div class="banner">
-                <!-- Titre -->
+                <!-- Titre -->              
                 <h2 class="banner-title">Star Command</h2>
             </div>
         </section>
-
     <main>
         <section class="bloc-container">
-        <div class="bloc-one">
-            <div class="bloc-one-img"></div>
-            <div class="bloc-one-body">
-            <h2>
-                Je suis un h2
-            </h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consequat mi et sapien <br>
-                tincidunt mollis. Cras magna risus, venenatis a ornare in, faucibus quis orci. <br>
-                sollicitudin placerat ipsum. Vivamus ac quam ut nibh pharetra aliquet. <br>
-                Mauris sed lorem vel mauris auctor convallis.
-            </p>
+        <?php foreach ($data as $key => $infos) : ?>
+        <?php foreach ($infos as $info) : ?>
+        <div class="<?= $info['bloc']?>">
+            <div class="<?= $info['image']?>"></div>
+            <div class="<?= $info['body']?>">
+            <h2><?= $info['title'] ?></h2>
+            <p><?= $info['description'] ?></p>
             </div>
         </div>
-            <div class="bloc-two">
-                <div class="bloc-two-img"></div>
-            <div class="bloc-two-body">
-            <h2>
-                Je suis un h2
-            </h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consequat mi et sapien <br>
-                tincidunt mollis. Cras magna risus, venenatis a ornare in, faucibus quis orci. <br>
-                sollicitudin placerat ipsum. Vivamus ac quam ut nibh pharetra aliquet. <br>
-                Mauris sed lorem vel mauris auctor convallis.
-            </p>                     
-        </div>
-        </div>
-            <div class="bloc-three">
-                <div class="bloc-three-img"></div>
-            <div class="bloc-three-body">
-            <h2>
-                Je suis un h2
-            </h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consequat mi et sapien <br>
-                tincidunt mollis. Cras magna risus, venenatis a ornare in, faucibus quis orci. <br>
-                sollicitudin placerat ipsum. Vivamus ac quam ut nibh pharetra aliquet. <br>
-                Mauris sed lorem vel mauris auctor convallis. 
-            </p>
-        </div>
-        </div>
+        <?php endforeach; ?>
+        <?php endforeach; ?>
         </section>
         <section class="contact">
             <button onclick="location.href='contact.php'" type="button">
