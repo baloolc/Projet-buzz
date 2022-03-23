@@ -50,8 +50,10 @@ require 'header.php';
         </section>
 
         <section class="contact">
+            <div class = "alienhello"></div>
             <button onclick="location.href='contact.php'" type="button">
                 Contact</button>
+            <div class = "aliengoodbye"></div>
         </section>
     </main>
     <?php require 'footer.php' ?>
