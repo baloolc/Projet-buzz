@@ -21,6 +21,7 @@ main {
     justify-content: center;
     margin-left: calc(2*var(--spacing4));
     margin-right: calc(2*var(--spacing4));
+    align-items: center;
 }
 
 .bloc-container h2{
@@ -35,8 +36,10 @@ main {
 
 .bloc-container p {
     margin:0;
-    padding-left: var(--spacing2);
+    padding-left: var(--spacing4);
     padding-right: var(--spacing2);
+    font-size: 1.2rem;
+    width: 80ch;
 }
 
 .bloc-one, .bloc-three {
@@ -46,6 +49,7 @@ main {
     padding-top: var(--spacing4);
     padding-bottom: var(--spacing4);
     border-bottom: solid 0.5px var(--primary-color);
+    width: 80%;
 }
 
 .bloc-two {
@@ -55,6 +59,7 @@ main {
     padding-top: var(--spacing4);
     padding-bottom: var(--spacing4);
     border-bottom: solid 0.5px var(--secondary-color);
+    width: 80%;
 }
 
 .bloc-one-body, .bloc-two-body, .bloc-three-body{
@@ -66,7 +71,7 @@ main {
 .bloc-one-img{
     width: 300px;
     height: 180px;
-    background-image: url(../img/wallpaper23.jpg);
+    background-image: url(../img/wallpaper17.jpg);
     background-size: cover;
     flex-shrink: 0;
 }
@@ -74,7 +79,7 @@ main {
 .bloc-two-img{
     width: 300px;
     height: 180px;
-    background-image: url(../img/wallpaper23.jpg);
+    background-image: url(../img/wallpaper13.jpg);
     background-size: cover;
     flex-shrink: 0;
 }
@@ -82,7 +87,7 @@ main {
 .bloc-three-img{
     width: 300px;
     height: 180px;
-    background-image: url(../img/wallpaper23.jpg);
+    background-image: url(../img/zurg.jpg);
     background-size: cover;
     flex-shrink: 0;
 }
@@ -126,5 +131,15 @@ button:focus {
         margin: 0;
         height: 30vh;
         background-position: center;
+    }
+    .bloc-container {
+        width: initial;
+    }
+    .bloc-one .bloc-three .bloc-two {
+        width: max-content;
+    }
+    .bloc-container p {
+        width: auto;
+        margin-top: var(--spacing3);
     }
 }
