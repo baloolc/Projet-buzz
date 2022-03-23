@@ -15,45 +15,60 @@
     margin-bottom: var(--spacing4);
 }
 
+.bloc-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: calc(2*var(--spacing4));
+    margin-right: calc(2*var(--spacing4));
+}
+
 .bloc-container h2{
     font-size: var(--title-size);
     color: var(--dark-color);
     text-decoration: none;
     text-shadow: none;
     text-align: center;
+    margin: 0;
+    padding: var(--spacing1);
 }
 
 .bloc-container p {
-    padding: var(--spacing2);
+    margin:0;
+    padding-left: var(--spacing2);
+    padding-right: var(--spacing2);
 }
 
 .bloc-one, .bloc-three {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: var(--spacing3);
-    align-items: center;
+    padding-top: var(--spacing4);
+    padding-bottom: var(--spacing4);
+    border-bottom: solid 0.5px var(--primary-color);
 }
 
 .bloc-two {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    align-items: center;
-    margin: var(--spacing3);
+    padding-top: var(--spacing4);
+    padding-bottom: var(--spacing4);
+    border-bottom: solid 0.5px var(--secondary-color);
 }
 
 .bloc-one-body, .bloc-two-body, .bloc-three-body{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
-
 
 .bloc-one-img{
     width: 300px;
     height: 180px;
     background-image: url(../img/wallpaper23.jpg);
     background-size: cover;
+    flex-shrink: 0;
 }
 
 .bloc-two-img{
@@ -61,6 +76,7 @@
     height: 180px;
     background-image: url(../img/wallpaper23.jpg);
     background-size: cover;
+    flex-shrink: 0;
 }
 
 .bloc-three-img{
@@ -68,6 +84,7 @@
     height: 180px;
     background-image: url(../img/wallpaper23.jpg);
     background-size: cover;
+    flex-shrink: 0;
 }
 
 .contact{
@@ -79,16 +96,25 @@
 button {
     font-family: var(--second-font-familly);
     text-align: center;
-    color: var(--secondary-color);
-    text-shadow: 1px 1px 2px var(--light-color);
-    background-color: var(--primary-color);
+    color: var(--light-color);
+    background-color: var(--secondary-color);
+    border-color: var(--dark-color);
     width: 10rem;
     height: 4rem;
-    border-radius: 10px 100px / 120px;
-    box-shadow: 2px 2px 1px var(--secondary-color);
-    font-size:var(--texte-font);
-    font-weight: 400;
+    border-radius: var(--spacing2);
+    font-size: var(--texte-font);
+    font-weight: 900;
     cursor: pointer;
+}
+
+button:hover {
+    filter: brightness(1.20);
+}
+
+button:focus {
+    border: solid;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
 }
 
 @media screen and (max-width: 920px) {
