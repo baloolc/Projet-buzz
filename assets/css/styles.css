@@ -219,7 +219,7 @@ svg {
     box-shadow: 0 3px 3px var(--secondary-color);
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-
+}
 
   
   .wrapper .tooltip {
