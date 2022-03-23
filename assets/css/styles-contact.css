@@ -138,7 +138,6 @@ textarea:focus {
     text-align: center;
     color: var(--light-color);
     background-color: var(--secondary-color);
-    border: solid;
     border-color: var(--dark-color);
     width: 10rem;
     height: 4rem;
@@ -148,10 +147,19 @@ textarea:focus {
     cursor: pointer;
 }
 
+.send:hover {
+    filter: brightness(1.20);
+}
+
 .send:focus {
+    border: solid;
     border-color: var(--primary-color);
     color: var(--primary-color);
 }
+
+
+
+
 
 /*media querie*/
 
