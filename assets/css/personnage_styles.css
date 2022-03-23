@@ -79,16 +79,25 @@
 button {
     font-family: var(--second-font-familly);
     text-align: center;
-    color: var(--secondary-color);
-    text-shadow: 1px 1px 2px var(--light-color);
-    background-color: var(--primary-color);
+    color: var(--light-color);
+    background-color: var(--secondary-color);
+    border-color: var(--dark-color);
     width: 10rem;
     height: 4rem;
-    border-radius: 10px 100px / 120px;
-    box-shadow: 2px 2px 1px var(--secondary-color);
-    font-size:var(--texte-font);
-    font-weight: 400;
+    border-radius: var(--spacing2);
+    font-size: var(--texte-font);
+    font-weight: 900;
     cursor: pointer;
+}
+
+button:hover {
+    filter: brightness(1.20);
+}
+
+button:focus {
+    border: solid;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
 }
 
 @media screen and (max-width: 920px) {

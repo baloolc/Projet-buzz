@@ -186,13 +186,16 @@ footer {
     font-size: 18px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     box-shadow: 0 3px 3px var(--secondary-color);
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
+
   
   .wrapper .tooltip {
+      display: flex;
+      align-items: center;
     position: absolute;
     top: 0;
     font-size: 14px;

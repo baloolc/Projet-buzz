@@ -52,7 +52,7 @@ require 'header.php';
                         </div>
                     </div>
                     <div class="input-send">
-                        <input class="send" type="submit" value="Envoyer" />
+                        <input class="send" type="submit" value="Envoyer"/>
                         <script src="contact-script.js"></script>
                     </div>
                 </form>
