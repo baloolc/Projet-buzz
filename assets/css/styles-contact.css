@@ -132,9 +132,6 @@ textarea:focus {
 .input-send {
     display: flex;
     justify-content: center;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-     
 }
 
 /*ce qui agit sur le bouton*/
@@ -163,13 +160,7 @@ textarea:focus {
     color: var(--primary-color);
 }
 
-
-
-
-
-/*media querie*/
-
-
+/*media query*/
 
 @media screen and (max-width: 669px) {
     .name-enterprise{
@@ -237,4 +228,5 @@ textarea:focus {
         background-position: right 50% bottom 50%;
         margin:0;
     } 
+
 }

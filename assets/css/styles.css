@@ -200,12 +200,12 @@ h1 {
     font-weight: 300;
 }
 
-.contact {
+.contact, .input-send {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: calc(2*var(--spacing4));
-    margin-bottom: calc(2*var(--spacing4));
+    margin-top: var(--spacing4);
+    margin-bottom: var(--spacing4);
 }
 
 .alienhello, .aliengoodbye {
@@ -388,7 +388,7 @@ footer {
     }
 
     h1 {
-        font-size: 50px;
+        font-size: 45px;
         font-weight: 900;
         text-shadow: 2px 2px #333;
     }
