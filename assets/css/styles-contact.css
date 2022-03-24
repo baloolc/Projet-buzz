@@ -216,5 +216,11 @@ textarea:focus {
     .message label {
         font-size: 22px;
     }
+
+    .banner-contact {
+        margin: 0;
+        height: 30vh;
+        background-position: center;
+    }
     
 }
