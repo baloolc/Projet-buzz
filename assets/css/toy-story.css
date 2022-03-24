@@ -9,7 +9,7 @@ main {
     align-items: center;
     justify-content: center;
     margin-top: 0;
-    background: url('../img/wallpaper23.jpg') no-repeat fixed;
+    background: url('../img/Wallpaper.jpeg') no-repeat fixed;
     background-size: cover;
     height: 100vh;
     margin-bottom: var(--spacing4);
@@ -76,7 +76,7 @@ main {
 .bloc-one-img{
     width: 300px;
     height: 180px;
-    background-image: url(../img/wallpaper17.jpg);
+    background-image: url(../img/andy.jpg);
     background-size: cover;
     flex-shrink: 0;
 }
@@ -84,7 +84,7 @@ main {
 .bloc-two-img{
     width: 300px;
     height: 180px;
-    background-image: url(../img/wallpaper13.jpg);
+    background-image: url(../img/new-family.jpg);
     background-size: cover;
     flex-shrink: 0;
 }
@@ -92,7 +92,7 @@ main {
 .bloc-three-img{
     width: 300px;
     height: 180px;
-    background-image: url(../img/zurg.jpg);
+    background-image: url(../img/wallpaper19.jpg);
     background-size: cover;
     flex-shrink: 0;
 }
