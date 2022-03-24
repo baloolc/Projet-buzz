@@ -16,7 +16,7 @@
 
     --first-font-familly: 'Prompt';
     --second-font-familly: 'Do Hyeon';
-    
+
 
     /*a définir*/
 
@@ -213,8 +213,8 @@ h1 {
     height: 250px;
     background-image: url(../img/alienpng.png);
     background-size: cover;
-    margin-right:calc(2*var(--spacing4)) ;
-    margin-left:calc(2*var(--spacing4)) ;
+    margin-right: calc(2*var(--spacing4));
+    margin-left: calc(2*var(--spacing4));
 }
 
 .alienhello {
@@ -402,10 +402,21 @@ footer {
         font-size: var(--title-size);
         /* font-weight: 900; */
         /* font-family: var(--second-font-familly); */
-  }
+    }
+
     .contact {
         margin-top: var(--spacing4);
         margin-bottom: var(--spacing4);
 
     }
+}
+
+@media screen and (max-width: 360px) {
+
+    /* .banner {
+        background: url('../img/Wallpaper1.jpeg') no-repeat fixed;
+        background-size: auto;
+        width: 100%;
+        height: 30vh;
+    } */
 }
