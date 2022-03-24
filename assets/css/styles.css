@@ -167,7 +167,7 @@ html {
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: var(--light-color);
+    background-color: var(--secondary-color);
 }
 
 /* Fin du Header  */
@@ -228,7 +228,7 @@ h1 {
     justify-content: center;
 }
 
-svg {
+.wrapper svg {
     fill: var(--dark-color);
 }
 
@@ -369,6 +369,7 @@ footer {
 
     .menu .burgerClose {
         display: flex;
+        fill: var(--light-color);
     }
 
     .header {
@@ -391,12 +392,20 @@ footer {
         font-weight: 900;
         text-shadow: 2px 2px #333;
     }
-    
+
     .aliengoodbye, .alienhello {
         display: none;
     }
+
+    .menu a {
+        color: var(--light-color);
+        font-size: var(--title-size);
+        /* font-weight: 900; */
+        /* font-family: var(--second-font-familly); */
+  }
     .contact {
         margin-top: var(--spacing4);
         margin-bottom: var(--spacing4);
+
     }
 }
