@@ -92,7 +92,7 @@ button:focus {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 920px) {
     .roles {
         display: flex;
         flex-wrap: wrap;
