@@ -15,7 +15,7 @@
         margin-top: 0;
         background: url('../img/contact.jpeg') no-repeat fixed;
         background-size: cover;
-        height: 90vh;
+        height: 100vh;
         margin-bottom: var(--spacing5);
     
     }
