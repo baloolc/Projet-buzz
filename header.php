@@ -8,7 +8,7 @@
                 <div class="buzz-nav">
                     <a href="index.php"> Buzz L'Eclair</a>
                 </div>
-                
+
                 <!-- Listes icones à droite -->
 
                 <div class="menu" id="items">
