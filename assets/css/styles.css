@@ -165,22 +165,6 @@ html {
     background-color: var(--light-color);
 }
 
-/* .close {
-    display: none;
-} */
-
-/* .menu:target~.close {
-    display: flex;
-    position: fixed;
-    width: 20%;
-    height: 100vh;
-    z-index: 0;
-    top: 0;
-    right: 0;
-    background-color: var(--dark-color);
-    opacity: 0.8;
-} */
-
 /* Fin du Header  */
 
 /* Img du Landing  */
@@ -209,13 +193,12 @@ h1 {
     font-size: 200px;
     font-family: var(--first-font-familly);
     font-weight: 500;
-
 }
 
 .contact {
     display: flex;
     justify-content: center;
-    gap:3;
+    gap: 3;
     align-items: center;
     margin-top: calc(2*var(--spacing4));
     margin-bottom: calc(2*var(--spacing4));
@@ -227,8 +210,8 @@ h1 {
     background-image: url(../img/alienpng.png);
     background-size: cover;
     flex-shrink: 0;
-    margin-right:calc(2*var(--spacing4)) ;
-    margin-left:calc(2*var(--spacing4)) ;
+    margin-right: calc(2*var(--spacing4));
+    margin-left: calc(2*var(--spacing4));
 }
 
 .alienhello {
@@ -403,6 +386,10 @@ footer {
     h1 {
         font-size: 50px;
         font-weight: 900;
-        text-shadow: 8px 8px #333;
+        text-shadow: 2px 2px #333;
+    }
+    
+    .aliengoodbye, .alienhello {
+        display: none;
     }
 }
