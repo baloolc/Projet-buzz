@@ -1,6 +1,6 @@
 <?php 
 
-$starcommand = [
+$jamesBuzz = [
         [
             'bloc'  => 'bloc-one',
             'image' => 'bloc-one-img',
@@ -32,7 +32,7 @@ $starcommand = [
         ],
     ];
 
-$toystory = [
+$toyStory = [
         [
             'bloc'  => 'bloc-one',
             'image' => 'bloc-one-img',
@@ -64,7 +64,7 @@ $toystory = [
         ],
     ];    
     
-$jamesbuzz = [
+$starCommand = [
         [
             'bloc'  => 'bloc-one',
             'image' => 'bloc-one-img',
