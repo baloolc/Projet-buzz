@@ -313,35 +313,35 @@ svg {
 .wrapper .facebook:hover,
 .wrapper .facebook:hover .tooltip,
 .wrapper .facebook:hover .tooltip::before {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: var(--light-color);
 }
 
 .wrapper .twitter:hover,
 .wrapper .twitter:hover .tooltip,
 .wrapper .twitter:hover .tooltip::before {
-    background-color: #a38dcf;
+    background-color: var(--primary-color);
     color: var(--light-color);
 }
 
 .wrapper .instagram:hover,
 .wrapper .instagram:hover .tooltip,
 .wrapper .instagram:hover .tooltip::before {
-    background-color: #e1306c;
+    background-color: var(--secondary-color);
     color: var(--light-color);
 }
 
 .wrapper .linkedin:hover,
 .wrapper .linkedin:hover .tooltip,
 .wrapper .linkedin:hover .tooltip::before {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: var(--light-color);
 }
 
 .wrapper .youtube:hover,
 .wrapper .youtube:hover .tooltip,
 .wrapper .youtube:hover .tooltip::before {
-    background-color: #de463b;
+    background-color: var(--primary-color);
     color: var(--light-color);
 }
 
