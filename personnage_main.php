@@ -31,8 +31,10 @@ require 'header.php';
         <?php endforeach; ?>
         </section>
         <section class="contact">
-            <button onclick="location.href='contact.php'" type="button">
-                Contact</button>
+        <div class="alienhello"></div>
+        <button onclick="location.href='contact.php'" type="button">
+            Contact</button>
+        <div class="aliengoodbye"></div>
         </section>
     </main>
 <?php require 'footer.php' ?>
