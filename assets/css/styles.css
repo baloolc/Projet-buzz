@@ -391,7 +391,7 @@ footer {
         display: none;
     }
     .contact {
-        margin-top: var(--spacing3);
-        margin-bottom: var(--spacing3);
+        margin-top: var(--spacing4);
+        margin-bottom: var(--spacing4);
     }
 }
