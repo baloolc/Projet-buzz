@@ -121,6 +121,20 @@ button:focus {
     color: var(--primary-color);
 }
 
+.alienhello, .aliengoodbye {
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/buzzc.png);
+    background-size: cover;
+    margin-right: calc(2*var(--spacing4));
+    margin-left: calc(2*var(--spacing4));
+}
+
+.alienhello {
+    transform: scale(-1, 1);
+}
+
+
 @media screen and (max-width: 920px) {
     .bloc-one-img, .bloc-two-img, .bloc-three-img{
         width: 0;

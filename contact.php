@@ -91,10 +91,14 @@ require 'header.php';
                                 placeholder="ex: Mettez votre message!" required ><?= $contact['message'] ?? '' ?></textarea>
                         </div>
                     </div>
-                    <div class="input-send">
-                        <input class="send" type="submit" value="Envoyer"/>
-                        <script src="contact-script.js"></script>
-                    </div>
+                    <section class="contact">
+                    <div class="alienhello"></div>
+                         <div class="input-send">
+                            <input class="send" type="submit" value="Envoyer"/>
+                            <script src="contact-script.js"></script>
+                        </div>
+                    <div class="aliengoodbye"></div>
+                        </section>
                 </form>
             </section>
         </main>

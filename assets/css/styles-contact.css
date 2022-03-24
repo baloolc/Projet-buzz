@@ -90,6 +90,7 @@ form label {
 input:focus {
     border-color: var(--primary-color);
     outline-style: none;
+    box-shadow: none;
   }
 
 /*bloc message*/
@@ -124,6 +125,7 @@ input:focus {
 textarea:focus {
     border-color: var(--primary-color);
     outline-style: none;
+    box-shadow: none;
   }
 /*texte dans les champs*/
 
@@ -131,9 +133,9 @@ textarea:focus {
   
 /*block du bouton envoyer*/
 
-.input-send {
+.contact {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 /*ce qui agit sur le bouton*/
@@ -160,6 +162,19 @@ textarea:focus {
     border: solid;
     border-color: var(--primary-color);
     color: var(--primary-color);
+}
+
+.alienhello, .aliengoodbye {
+    width: 400px;
+    height: 250px;
+    background-image: url(../img/buzzcont.png);
+    background-size: cover;
+    margin-right: calc(2*var(--spacing4));
+    margin-left: calc(2*var(--spacing4));
+}
+
+.alienhello {
+    transform: scale(-1, 1);
 }
 
 /*media query*/
