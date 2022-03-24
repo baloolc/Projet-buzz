@@ -50,8 +50,8 @@
         </div>
         <div class="texte-footer">
             <p>Buzz team privacy / Do not sell my personal information <br>
-                Stars command for noob / Vers l'infini et ... for ever <br>
-                2022 - Wild code school intéractive studio </p>
+                Star Command for noobs / Vers l'infini et au delà for ever <br>
+                2022 - Wild Code School Interactive Studio </p>
         </div>
     </footer>
 </html>

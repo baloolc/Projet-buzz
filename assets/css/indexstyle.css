@@ -21,7 +21,7 @@ p:nth-of-type(2) {
 .roles {
     display: flex;
     justify-content: center;
-    gap: 3rem;
+    gap: 5rem;
 }
 
 h3 {
@@ -47,22 +47,22 @@ body main {
 }
 
 .starcommandimg {
-    width: 300px;
-    height: 180px;
+    width: 400px;
+    height: 230px;
     background-image: url(../img/wallpaper23.jpg);
     background-size: cover;
 }
 
 .toystoryimg {
-    width: 300px;
-    height: 180px;
+    width: 400px;
+    height: 230px;
     background-image: url(../img/Wallpaper.jpeg);
     background-size: cover;
 }
 
 .jamesbuzzimg {
-    width: 300px;
-    height: 180px;
+    width: 400px;
+    height: 230px;
     background-image: url(../img/Wallpaper3.jpeg);
     background-size: cover;
 }
