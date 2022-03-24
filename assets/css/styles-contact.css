@@ -25,6 +25,15 @@ form label {
      font-weight: 300;
 }
 
+ul {
+    list-style-type: none;
+    font-size: var(--texte-font);
+    font-family: var(--first-font-familly);
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+}
+
 .name-enterprise {
     display: flex;
     justify-content: center;
