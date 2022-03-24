@@ -1,0 +1,144 @@
+/* Ceci est le style de la page personnage: partie main */ 
+
+main {
+    font-family: var(--first-font-familly);
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    background: url('../img/wallpaper23.jpg') no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: var(--spacing4);
+}
+
+.bloc-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: calc(2*var(--spacing4));
+    margin-right: calc(2*var(--spacing4));
+    align-items: center;
+}
+
+.bloc-container h2{
+    font-size: var(--title-size);
+    color: var(--dark-color);
+    font-weight: 300;
+    text-decoration: none;
+    /* text-underline-offset: 5px;
+    text-decoration-thickness: 1px;
+    text-decoration-color: var(--primary-color); */
+    text-shadow: none;
+    text-align: center;
+    margin: 0;
+    padding: var(--spacing1);
+}
+
+.bloc-container p {
+    margin:0;
+    padding-left: var(--spacing4);
+    padding-right: var(--spacing2);
+    font-size: 1.2rem;
+    width: 80ch;
+    font-weight: 100;
+}
+
+.bloc-one, .bloc-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: var(--spacing4);
+    padding-bottom: var(--spacing4);
+    border-bottom: solid 0.5px var(--primary-color);
+    width: 80%;
+}
+
+.bloc-two {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding-top: var(--spacing4);
+    padding-bottom: var(--spacing4);
+    border-bottom: solid 0.5px var(--secondary-color);
+    width: 80%;
+}
+
+.bloc-one-body, .bloc-two-body, .bloc-three-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bloc-one-img{
+    width: 300px;
+    height: 180px;
+    background-image: url(../img/wallpaper17.jpg);
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+.bloc-two-img{
+    width: 300px;
+    height: 180px;
+    background-image: url(../img/wallpaper13.jpg);
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+.bloc-three-img{
+    width: 300px;
+    height: 180px;
+    background-image: url(../img/zurg.jpg);
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+button {
+    font-family: var(--second-font-familly);
+    text-align: center;
+    color: var(--light-color);
+    background-color: var(--secondary-color);
+    border-color: var(--dark-color);
+    width: 10rem;
+    height: 4rem;
+    border-radius: var(--spacing2);
+    font-size: var(--texte-font);
+    font-weight: 900;
+    cursor: pointer;
+}
+
+button:hover {
+    filter: brightness(1.20);
+}
+
+button:focus {
+    border: solid;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+@media screen and (max-width: 920px) {
+    .bloc-one-img, .bloc-two-img, .bloc-three-img{
+        width: 0;
+        height: 0;
+    }
+    .banner {
+        margin: 0;
+        height: 30vh;
+        background-position: center;
+    }
+    .bloc-container {
+        width: initial;
+    }
+    .bloc-one .bloc-three .bloc-two {
+        width: max-content;
+    }
+    .bloc-container p {
+        width: auto;
+        margin-top: var(--spacing3);
+    }
+}
