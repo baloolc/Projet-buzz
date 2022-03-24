@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/indexstyle.css">
     <title>CV de l'espace</title>
+    <link rel="icon" href="https://i.pinimg.com/originals/67/1a/5e/671a5e550d91f7430bbfe111be76cab5.png" type="image/icon type">
 </head>
 <?php
 require 'header.php';
