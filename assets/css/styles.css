@@ -214,8 +214,7 @@ h1 {
 
 .contact {
     display: flex;
-    justify-content: center;
-    gap:3;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: calc(2*var(--spacing4));
     margin-bottom: calc(2*var(--spacing4));
@@ -226,7 +225,6 @@ h1 {
     height: 250px;
     background-image: url(../img/alienpng.png);
     background-size: cover;
-    flex-shrink: 0;
     margin-right:calc(2*var(--spacing4)) ;
     margin-left:calc(2*var(--spacing4)) ;
 }
@@ -404,5 +402,9 @@ footer {
         font-size: 50px;
         font-weight: 900;
         text-shadow: 8px 8px #333;
+    }
+    .contact {
+        margin-top: var(--spacing3);
+        margin-bottom: var(--spacing3);
     }
 }
