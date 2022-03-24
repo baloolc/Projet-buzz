@@ -20,7 +20,11 @@
     
     }
 /*block label, champs nom et entreprise*/
- 
+
+form label {
+     font-weight: 300;
+}
+
 .name-enterprise {
     display: flex;
     justify-content: center;
