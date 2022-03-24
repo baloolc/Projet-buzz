@@ -1,7 +1,7 @@
 :root {
     --width-input: 40rem;
     --height-input:2.5rem;
-    --width-textarea: 77rem;
+    --width-textarea: 91.5rem;
     --margin:1rem 8rem 1rem 8rem;
     --margin-input:0.3rem; 
     --heigth-textarea: 10rem;
@@ -38,7 +38,8 @@ form label {
 .name-enterprise label {
     color: var(--dark-color);
     font-family: var(--first-font-familly);
-    font-size: var(--title-size);
+    font-size: 24px;
+   
 }
 
 /*champs nom et entreprise*/
@@ -48,9 +49,9 @@ form label {
     height: var(--height-input);
     margin-top: var(--margin-input);
     box-shadow: 2px 2px 1px var(--secondary-color);
-    padding: var(--spacing);
-    padding-left: var(--spacing2);
-    font-size: var(--spacing2);
+    padding:var(--margin-input);
+    padding-left: 0.8rem;
+    font-size: 1.2rem;
     
     
 }
@@ -70,7 +71,8 @@ form label {
 .mail-phone label {
     color: var(--dark-color);
     font-family: var(--first-font-familly);
-    font-size: var(--title-size);
+    font-size: 24px;
+   
 }
 
 /*input de mail et phone*/
@@ -80,9 +82,9 @@ form label {
     height: var(--height-input);
     margin-top: var(--margin-input);
     box-shadow: 2px 2px 1px var(--secondary-color);
-    padding: var(--spacing);
-    padding-left: var(--spacing2); 
-    font-size: var(--spacing2);
+    padding:var(--margin-input);
+    padding-left: 0.8rem;
+    font-size: 1.2rem;
     
 }
 input:focus {
@@ -103,7 +105,7 @@ input:focus {
 .message label {
     color: var(--dark-color);
     font-family: var(--first-font-familly);
-    font-size: var(--title-size);
+    font-size: 24px;
    
 }
 
@@ -114,9 +116,9 @@ input:focus {
     margin-top: var(--margin-input);
     box-shadow: 2px 2px 1px var(--secondary-color);
     height: var(--heigth-textarea);
-    padding: var(--spacing);
-    padding-left:var(--spacing);
-    font-size: var(--spacing2);   
+    padding:var(--margin-input);
+    padding-left: 0.8rem;
+    font-size: 1.2rem; 
 }
 
 textarea:focus {
@@ -177,7 +179,7 @@ textarea:focus {
         font-size: 13px;
     }
     .name-enterprise label {
-        font-size: 22px;
+        font-size: 20px;
     }
     .enterprise {
         margin-top: 10px;
@@ -197,7 +199,7 @@ textarea:focus {
         font-size: 13px;
     }
     .mail-phone label {
-        font-size: 22px;
+        font-size: 20px;
     }
     .phone {
         margin-top: 10px;
@@ -210,7 +212,7 @@ textarea:focus {
     }
 
     .message label {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .banner-contact {
