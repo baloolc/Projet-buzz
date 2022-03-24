@@ -27,6 +27,7 @@ main {
 .bloc-container h2{
     font-size: var(--title-size);
     color: var(--dark-color);
+    font-weight: 300;
     text-decoration: none;
     text-shadow: none;
     text-align: center;
@@ -40,6 +41,7 @@ main {
     padding-right: var(--spacing2);
     font-size: 1.2rem;
     width: 80ch;
+    font-weight: 100;
 }
 
 .bloc-one, .bloc-three {

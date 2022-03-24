@@ -2,7 +2,7 @@
 
 /*variable*/
 
-@import url(https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
 
 
@@ -16,6 +16,7 @@
 
     --first-font-familly: 'Prompt';
     --second-font-familly: 'Do Hyeon';
+    
 
     /*a définir*/
 
@@ -38,6 +39,9 @@
 
 /* Début du code */
 
+* {
+    font-size: 100;
+}
 
 body {
     margin: 0 auto;
@@ -121,6 +125,7 @@ html {
 .menu a, .roles a {
     position: relative;
     text-decoration: none;
+    font-weight: 200;
 
 
 }
@@ -192,7 +197,7 @@ h1 {
     text-shadow: 5px 5px var(--dark-color);
     font-size: 200px;
     font-family: var(--first-font-familly);
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .contact {
@@ -339,7 +344,7 @@ footer {
     color: var(--dark-color);
     font-size: var(--textesize-footer);
     font-family: var(--first-font-familly);
-    font-weight: 600;
+    font-weight: 200;
     margin-top: var(--spacing3);
 }
 
