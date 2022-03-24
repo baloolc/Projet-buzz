@@ -14,28 +14,28 @@
 <?php
 require 'header.php';
 ?>
-            <div class="banner">
-                <!-- Titre -->              
-                <h1 class="banner-title">Star Command</h1>
-            </div>
-        </section>
-    <main>
-        <section class="bloc-container">
+<div class="banner">
+    <!-- Titre -->
+    <h1 class="banner-title">Star Command</h1>
+</div>
+</section>
+<main>
+    <section class="bloc-container">
         <?php foreach ($jamesbuzz as $key => $info) : ?>
-        <div class="<?= $info['bloc']?>">
-            <div class="<?= $info['image']?>"></div>
-            <div class="<?= $info['body']?>">
-            <h2><?= $info['title'] ?></h2>
-            <p><?= $info['description'] ?></p>
+            <div class="<?= $info['bloc'] ?>">
+                <div class="<?= $info['image'] ?>"></div>
+                <div class="<?= $info['body'] ?>">
+                    <h2><?= $info['title'] ?></h2>
+                    <p><?= $info['description'] ?></p>
+                </div>
             </div>
-        </div>
         <?php endforeach; ?>
-        </section>
-        <section class="contact">
+    </section>
+    <section class="contact">
         <div class="alienhello"></div>
         <button onclick="location.href='contact.php'" type="button">
             Contact</button>
         <div class="aliengoodbye"></div>
-        </section>
-    </main>
+    </section>
+</main>
 <?php require 'footer.php' ?>

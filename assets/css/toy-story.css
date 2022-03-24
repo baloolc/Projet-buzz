@@ -1,4 +1,4 @@
-/* Ceci est le style de la page personnage: partie main */
+/* Ceci est le style de la page personnage: partie main */ 
 
 main {
     font-family: var(--first-font-familly);
@@ -24,7 +24,7 @@ main {
     align-items: center;
 }
 
-.bloc-container h2 {
+.bloc-container h2{
     font-size: var(--title-size);
     color: var(--dark-color);
     font-weight: 300;
@@ -40,7 +40,7 @@ main {
 
 .bloc-container p {
     margin:0;
-    padding-left: var(--spacing2);
+    padding-left: var(--spacing4);
     padding-right: var(--spacing2);
     font-size: 1.2rem;
     width: 80ch;
@@ -67,13 +67,13 @@ main {
     width: 80%;
 }
 
-.bloc-one-body, .bloc-two-body, .bloc-three-body {
+.bloc-one-body, .bloc-two-body, .bloc-three-body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.bloc-one-img {
+.bloc-one-img{
     width: 300px;
     height: 180px;
     background-image: url(../img/wallpaper17.jpg);
@@ -81,7 +81,7 @@ main {
     flex-shrink: 0;
 }
 
-.bloc-two-img {
+.bloc-two-img{
     width: 300px;
     height: 180px;
     background-image: url(../img/wallpaper13.jpg);
@@ -89,7 +89,7 @@ main {
     flex-shrink: 0;
 }
 
-.bloc-three-img {
+.bloc-three-img{
     width: 300px;
     height: 180px;
     background-image: url(../img/zurg.jpg);
@@ -122,38 +122,23 @@ button:focus {
 }
 
 @media screen and (max-width: 920px) {
-    .bloc-one-img, .bloc-two-img, .bloc-three-img {
+    .bloc-one-img, .bloc-two-img, .bloc-three-img{
         width: 0;
         height: 0;
     }
-
     .banner {
         margin: 0;
-        height: 40vh;
+        height: 30vh;
         background-position: center;
     }
-
     .bloc-container {
         width: initial;
     }
-
     .bloc-one .bloc-three .bloc-two {
         width: max-content;
     }
-
     .bloc-container p {
         width: auto;
         margin-top: var(--spacing3);
-    }
-}
-@media screen and (max-width: 360px) {
-
-    .banner {
-        width: 100%;
-        height: 40vh;
-        margin:0;
-    } 
-    .bloc-container {
-        margin: var(--spacing1);
     }
 }

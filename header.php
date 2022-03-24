@@ -18,8 +18,8 @@
                         </svg>
                     </a>
                     <a href="personnage_main.php">Star Command</a>
-                    <a href="personnage_main.php">Toys Story</a>
-                    <a href="personnage_main.php">James Buzz</a>
+                    <a href="toy-story.php">Toys Story</a>
+                    <a href="james-buzz.php">James Buzz</a>
                     <a href="contact.php">Contact</a>
                 </div>
                 <!-- icone burger -->

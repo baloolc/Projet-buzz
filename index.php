@@ -35,14 +35,14 @@ require 'header.php';
             </div>
         </a>
 
-        <a href="personnage_main.php">
+        <a href="toy-story.php">
             <div class="toystory">
                 <div class="toystoryimg"></div>
                 <h3>Toy Story</h3>
             </div>
         </a>
 
-        <a href="personnage_main.php">
+        <a href="james-buzz.php">
             <div class="jamesbuzz">
                 <div class="jamesbuzzimg"></div>
                 <h3>James Buzz</h3>
