@@ -93,7 +93,6 @@ html {
     transition: 0.2s;
 }
 
-
 /* Texte à droite de la nav  */
 
 .menu {
@@ -119,13 +118,14 @@ html {
 
 /* Animation des barres sous les menues  */
 
- .menu a, .roles a{
-position: relative;
-text-decoration: none;
+.menu a, .roles a {
+    position: relative;
+    text-decoration: none;
 
 
 }
-.menu a:after , .roles a:after{
+
+.menu a:after, .roles a:after {
     content: "";
     position: absolute;
     background-color: var(--primary-color);
@@ -190,7 +190,7 @@ text-decoration: none;
     align-items: center;
     justify-content: center;
     margin-top: 0;
-    background: url('../img/Wallpaper.jpeg') no-repeat fixed;
+    background: url('../img/Wallpaper1.jpeg') no-repeat fixed;
     background-size: cover;
     height: 100vh;
     margin-bottom: var(--spacing4);
@@ -360,7 +360,6 @@ footer {
     font-family: var(--first-font-familly);
     font-weight: 600;
     margin-top: var(--spacing3);
-
 }
 
 /* media queries  */
@@ -404,6 +403,6 @@ footer {
     h1 {
         font-size: 50px;
         font-weight: 900;
-        text-shadow: 1em 1em #333;
+        text-shadow: 8px 8px #333;
     }
 }
