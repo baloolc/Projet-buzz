@@ -23,7 +23,7 @@ require 'header.php';
 <main>
     <section class="presentation">
         <p>Salutations, je suis Buzz l'Eclair, je viens en paix</p>
-        <p>A la recherche d'une mission de maintien de l'ordre intergalactique</p>
+        <p>À la recherche d'une mission de maintien de l'ordre intergalactique</p>
         <p>Vers l'infini et au delà !</p>
     </section>
 
