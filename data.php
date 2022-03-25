@@ -6,21 +6,21 @@ $jamesBuzz = [
             'image' => 'bloc-one-img',
             'body'  => 'bloc-one-body',
             'title' => 'Premier film refusé !',
-            'description' => 'Pourquoi ai-je refusé ce film? Tout simplement parce que le personnage de ce film que j\'aurais dû incarné ne m\'aurais absolument pas mis en valeur. De plus j\'aurais dû chanter Bad buzz, bad buzz whatcha gonna do when they come for you. M\'imaginez-vous chanter ça! Moi Buzz l\'éclair. ',
+            'description' => 'Pourquoi ai-je refusé ce film ? Tout simplement parce que le personnage de ce film que j\'aurais dû incarner ne m\'aurait absolument pas mis en valeur. De plus, j\'aurais dû chanter Bad buzz, bad buzz whatcha gonna do when they come for you. M\'imaginez-vous chanter ça, Moi Buzz l\'éclair ?! ',
         ],
         [
             'bloc'  => 'bloc-two',
             'image' => 'bloc-two-img',
             'body'  => 'bloc-two-body',
             'title' => 'Deuxième film refusé !',
-            'description' => 'Pourquoi ai-je refusé ce film? Je pense que je suis déjà un héros pour la planète, donc incarner un héro d\'une nation aurait été un peu régressif pour ma personne. Entre nous Capitaine América à besoin d\'aide pour sauver la planète avec l\'équipe Avengeur, moi j\'ai besoin de personne!' ,
+            'description' => 'Pourquoi ai-je refusé ce film ? Je pense que je suis déjà un héros pour la planète, donc incarner un héros d\'une nation aurait été un peu régressif pour ma personne. Entre nous, Capitaine América a besoin d\'aide pour sauver la planète avec l\'équipe Avenger, moi je n\'ai besoin de personne!' ,
         ],
         [
             'bloc'  => 'bloc-three',
             'image' => 'bloc-three-img',
             'body'  => 'bloc-three-body',
             'title' => 'Réalisation de mon film ',
-            'description' => 'Pourquoi ai-je réalisé mon prope film? Toutes les propositions que l\'on m\'avaient présenté n\'étaient pas à la hauteur de moi Buzz l\'éclair. J\'ai du réaliser mon film basé sur mon expérience militaire et de toutes les aventures que j\'avais vécu. Dès la sortie du film, il a été premier au box office, En même tant c\'est sur moi, quoi de mieux!',
+            'description' => 'Pourquoi ai-je réalisé mon prope film ? Toutes les propositions que l\'on m\'avait présentées n\'étaient pas à la hauteur de moi Buzz l\'éclair. J\'ai du réaliser mon film basé sur mon expérience militaire et de toutes les aventures que j\'avais vécues. Dès la sortie du film, il a été premier au box office ! En même temps c\'est sur moi, quoi de mieux ?!',
         ],
     ];
 
