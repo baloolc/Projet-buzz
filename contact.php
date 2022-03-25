@@ -28,6 +28,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (empty($contact['message'])) {
         $errors[] = 'Le champ "Message" est requis';
     }
+
+    if (empty($errors)) {
+        header('Location: /contact.php?message=true#form');
+    }
 }
 ?>
 <!DOCTYPE html>
@@ -60,9 +64,15 @@ require 'header.php';
                             <li><?= $error ?></li>
                             <?php endforeach; ?>
                     </ul>
+                    <?php if(!empty($_GET)) : ?>
+                    <div class ="thanks">
+                    <p><?='Merci d\'avoir envoyé votre message !' ?></p>
+                    <img class ="gif" src="/assets/img/buzzgif.gif">
+                    <?php endif; ?>
+                    </div>
                     <div class="name-enterprise">
                         <div class="first-last-name">
-                            <label for="first-last-name">Nom Prénom</label><br />
+                            <label for="first-last-name">Nom Prénom</label><br/>
                             <input type="text" required id="first-last-name" name="first-last-name"
                                 placeholder="ex: Dupont Vianney" required value="<?= $contact['first-last-name'] ?? '' ?>"/>
                         </div>

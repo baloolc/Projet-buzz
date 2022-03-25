@@ -32,6 +32,26 @@ ul {
     font-weight: 200;
     display: flex;
     justify-content: center;
+    margin:0;
+}
+
+#form p {
+    list-style-type: none;
+    font-size: var(--texte-font);
+    font-family: var(--first-font-familly);
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.thanks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: var(--spacing2);
 }
 
 .name-enterprise {
@@ -39,7 +59,6 @@ ul {
     justify-content: center;
     align-items: center;
     gap: 10rem;
-
 }
 
 /*label de name et entreprise*/
@@ -254,5 +273,33 @@ textarea:focus {
         background-position: right 50% bottom 50%;
         margin:0;
     } 
+    .gif {
+        display: none;
+    }
+
+    .thanks {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #form {
+        margin-top: var(--spacing2);
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+        margin-bottom: var(--spacing2);
+    }
+    li {
+        font-size: 14px;
+    }
+    #form p {
+        font-size: 18px;     
+    }
 
 }
