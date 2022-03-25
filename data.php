@@ -44,7 +44,7 @@ $toyStory = [
             'image' => 'bloc-three-img',
             'body'  => 'bloc-three-body',
             'title' => 'Dénialisme ',
-            'description' => 'Le contexte étais bizarre j\'étais persuadé d\'être une personne fait d\'os et de chair, jusqu\'à ce que je me retrouve cassé. Vous imaginez le choc mental que j\'ai subi ! Je suis un jouet et oui j\'ai perdu les pédales mais avec le soutien de tous mes amis je m\'en suis remis et je me retrouve plus fort mentalement dans ma condition de jouet.  ',
+            'description' => 'Le contexte était bizarre j\'étais persuadé d\'être une personne fait d\'os et de chair, jusqu\'à ce que je me retrouve cassé. Vous imaginez le choc mental que j\'ai subi ! Je suis un jouet et oui j\'ai perdu les pédales mais avec le soutien de tous mes amis je m\'en suis remis et je me retrouve plus fort mentalement dans ma condition de jouet.  ',
         ],
     ];    
     
