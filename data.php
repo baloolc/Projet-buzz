@@ -5,30 +5,22 @@ $jamesBuzz = [
             'bloc'  => 'bloc-one',
             'image' => 'bloc-one-img',
             'body'  => 'bloc-one-body',
-            'title' => 'Je suis très fort',
-            'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consequat mi et sapien 
-            tincidunt mollis. Cras magna risus, venenatis a ornare in, faucibus quis orci. 
-            sollicitudin placerat ipsum. Vivamus ac quam ut nibh pharetra aliquet. 
-            Mauris sed lorem vel mauris auctor convallis.',
+            'title' => 'Premier film refusé !',
+            'description' => 'Pourquoi j\'ai refusé ce film? Tout simplement parce que le personnage de ce film centré sur moi ne me m\'était absolument pas en valeur. De plus je devais chanter Bad buzz, bad buzz whatcha gonna do when they come for you. Vous m\'imaginez chanter ça! Moi Buzz l\'éclair. ',
         ],
         [
             'bloc'  => 'bloc-two',
             'image' => 'bloc-two-img',
             'body'  => 'bloc-two-body',
-            'title' => 'Je suis le meilleur ',
-            'description' => 'Cras magna risus, venenatis a ornare in, faucibus quis orci. 
-            sollicitudin placerat ipsum. Vivamus ac quam ut nibh pharetra aliquet. 
-            Mauris sed lorem vel mauris auctor convallis.',
+            'title' => 'Deuxième film refusé !',
+            'description' => 'Pourquoi j\'ai refusé ce film? Je pense que je suis déjà un héros pour la planette, donc incarner un héro d\'une nation étais un peu régressif pour ma personne. Entre nous Capitaine América à besoin d\'aide pour sauver la planette avec l\'équipe Avengeur, moi j\'ai besoin de personne!' ,
         ],
         [
             'bloc'  => 'bloc-three',
             'image' => 'bloc-three-img',
             'body'  => 'bloc-three-body',
-            'title' => 'Je suis le roi du monde ',
-            'description' => 'Vivamus ac quam ut nibh pharetra aliquet. 
-            Mauris sed lorem vel mauris auctor convallis. Cras magna risus, venenatis a ornare in, faucibus quis orci. 
-            sollicitudin placerat ipsum. Vivamus ac quam ut nibh pharetra aliquet. 
-            Mauris sed lorem vel mauris auctor convallis.',
+            'title' => 'Réalisation de mon film ',
+            'description' => 'Pourquoi j\'ai réalisé mon prope film? Toutes les propositions que l\'on m\'avait présenté n\'étais pas à la hauteur de moi Buzz l\'éclair. J\'ai du réaliser mon film basé sur mon expérience militaire et de toutes les aventures que j\'ai vécu. Dès la sortie du film, il a été premier au box office, En même tant c\'est sur moi, quoi de mieux!',
         ],
     ];
 
