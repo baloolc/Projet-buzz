@@ -63,14 +63,20 @@ main {
     justify-content: center;
     padding-top: var(--spacing4);
     padding-bottom: var(--spacing4);
-    border-bottom: solid 0.5px var(--secondary-color);
+    border-bottom: solid 0.5px var(--primary-color);
     width: 80%;
 }
 
 .bloc-one-body, .bloc-two-body, .bloc-three-body{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.bloc-one-body h2, .bloc-two-body h2, .bloc-three-body h2 {
+    text-align: left;
+    padding-left: var(--spacing2);
+    color:var(--secondary-color)
 }
 
 .bloc-one-img{
