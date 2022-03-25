@@ -38,21 +38,21 @@ $toyStory = [
             'image' => 'bloc-one-img',
             'body'  => 'bloc-one-body',
             'title' => 'Les enfants !',
-            'description' => 'J\'ai atteri dans une chambre d\'enfant, il s\'appelait Andy. J\'ai communiqué avec les otoctones locaux, il semblerait que ce soit des jouets, ils ont un protocole, quand un enfant arrive il faut se figer et l\'enfant joue avec nous pendant des heures, oui j\'ai bien des heures! Bon je joue le jeu pour me faire bien voir des jouets locaux.  ',
+            'description' => 'J\'ai atterri dans une chambre d\'enfant, il s\'appelait Andy. J\'ai communiqué avec les otoctones locaux, il semblerait qu\'ils soient des jouets. Ils ont un protocole, quand un enfant arrive il faut se figer et l\'enfant joue avec eux pendant des heures, oui j\'ai bien dit des heures! Bon, je joue le jeu pour me faire bien voir auprès des autres jouets.  ',
         ],
         [
             'bloc'  => 'bloc-two',
             'image' => 'bloc-two-img',
             'body'  => 'bloc-two-body',
             'title' => 'Mes amis pour la vie ',
-            'description' => 'Au bout d\'un moment les jouets sont devenus mes amis, on a vécu des aventures plus dingue les unes que les autres. Une des aventures que nous avons vécu, nous ammenés à sauver diverses jouets des mains d\'enfant diabolique et de colectionneur infâme. Suite a ça Woody est devenu mon meilleur amis, d\'ailleurs il peut référer de mes compétences.',
+            'description' => 'Au bout d\'un moment les jouets sont devenus mes amis, on a vécu des aventures plus dingues les unes que les autres. Une de ces aventures nous a amené à sauver d\'autres jouets des mains d\'enfants diaboliques et de colectionneurs infâmes. Suite à ça Woody est devenu mon meilleur ami, d\'ailleurs il peut témoigner de mes compétences.',
         ],
         [
             'bloc'  => 'bloc-three',
             'image' => 'bloc-three-img',
             'body'  => 'bloc-three-body',
             'title' => 'Dénialisme ',
-            'description' => 'Le contexte étais bizzarre j\'étais persuadé d\'être une personne fait d\'os et de chair, jusqu\'à ce que je sois cassé. Vous imaginez le choc mental que j\'ai subit? Je suis un jouet et oui j\'ai perdu les pédales, mais avec le soutient de tous mes amis je m\'en suis remis et je me retrouve plus fort mentalement avec ma condition de jouet.  ',
+            'description' => 'Le contexte étais bizarre j\'étais persuadé d\'être une personne fait d\'os et de chair, jusqu\'à ce que je me retrouve cassé. Vous imaginez le choc mental que j\'ai subi ! Je suis un jouet et oui j\'ai perdu les pédales mais avec le soutien de tous mes amis je m\'en suis remis et je me retrouve plus fort mentalement dans ma condition de jouet.  ',
         ],
     ];    
     
