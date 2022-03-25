@@ -79,6 +79,22 @@ html {
 
 /* Texte à gauche de la nav  */
 
+.buzz-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--title-size);
+    gap: 1rem;
+}
+
+.buzz-nav .iconeHome {
+    padding-top: 5px;
+}
+
+#iconeHome {
+    fill: var(--secondary-color);
+}
+
 .buzz-nav a {
     display: flex;
     justify-content: center;
