@@ -51,7 +51,7 @@ require 'header.php';
 ?>
             <div class="banner-contact">
                 <!-- Titre -->
-                <h1 class="banner-title">Contactez moi</h1>
+                <h1 class="banner-title">Contactez-moi</h1>
                 <!-- Images de fond  -->
             </div>
         </section>
