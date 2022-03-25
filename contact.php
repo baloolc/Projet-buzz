@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     if (empty($errors)) {
-        header('Location: /contact.php?message=true');
+        header('Location: /contact.php?message=true#form');
     }
 }
 ?>
@@ -65,8 +65,11 @@ require 'header.php';
                             <?php endforeach; ?>
                     </ul>
                     <?php if(!empty($_GET)) : ?>
+                    <div class ="thanks">
                     <p><?='Merci d\'avoir envoyé votre message !' ?></p>
+                    <img class ="gif" src="/assets/img/buzzgif.gif">
                     <?php endif; ?>
+                    </div>
                     <div class="name-enterprise">
                         <div class="first-last-name">
                             <label for="first-last-name">Nom Prénom</label><br/>
