@@ -75,18 +75,18 @@ require 'header.php';
                     <div class="mail-phone">
                         <div class="mail">
                             <label for="mail">Mail</label><br />
-                            <input type="text" required id="mail" name="mail" placeholder="ex: wild@gmail.com"
+                            <input type="email" required id="mail" name="mail" placeholder="ex: wild@gmail.com"
                             required value="<?= $contact['mail'] ?? '' ?>" />
                         </div>
                         <div class="phone">
                             <label for="phone">Téléphone</label><br />
-                            <input type="text" required id="phone" name="phone" placeholder="ex: 0238564213"
+                            <input type="number" required id="phone" name="phone" placeholder="ex: 0238564213"
                             required value="<?= $contact['phone'] ?? '' ?>" />
                         </div>
                     </div>
                     <div class="message">
                         <div>
-                            <label for="message">Message</label><br />
+                            <label for="message">Message (Facultatif)</label><br />
                             <textarea id="message" name="message" cols="95" rows="5"
                                 placeholder="ex: Mettez votre message!" required ><?= $contact['message'] ?? '' ?></textarea>
                         </div>
