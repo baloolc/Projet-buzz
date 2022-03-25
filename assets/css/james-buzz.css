@@ -9,7 +9,7 @@ main {
     align-items: center;
     justify-content: center;
     margin-top: 0;
-    background: url('../img/wallpaper23.jpg') no-repeat fixed;
+    background: url('../img/Affiche Buzz film 2.jpeg') no-repeat fixed;
     background-size: cover;
     height: 100vh;
     margin-bottom: var(--spacing4);
@@ -82,7 +82,7 @@ main {
 .bloc-one-img{
     width: 300px;
     height: 180px;
-    background-image: url(../img/film-refuser.jpeg);
+    background-image: url(../img/BadBuzz.jpeg);
     background-size: cover;
     flex-shrink: 0;
 }
@@ -90,7 +90,7 @@ main {
 .bloc-two-img{
     width: 300px;
     height: 180px;
-    background-image: url(../img/wallpaper13.jpg);
+    background-image: url(../img/avenger.jpg);
     background-size: cover;
     flex-shrink: 0;
 }
@@ -98,7 +98,7 @@ main {
 .bloc-three-img{
     width: 300px;
     height: 180px;
-    background-image: url(../img/avenger.jpg);
+    background-image: url(../img/AfficheBuzzFilm.jpeg);
     background-size: cover;
     flex-shrink: 0;
 }
